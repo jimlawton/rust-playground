@@ -9,6 +9,7 @@
   - You can get a local copy of the book by doing: `cargo install thebook` which installs the `thebook` command.
 - [Comprehensive Rust](https://google.github.io/comprehensive-rust/) - Rust course by the Android team at Google.
 - [Effective Rust](https://effective-rust.com/)
+- [The Mediocre Programmers Guide to Rust](https://www.hezmatt.org/~mpalmer/blog/2024/05/01/the-mediocre-programmers-guide-to-rust.html) - despite the title, this is a very useful article!.
 
 ### Language Resources
 
