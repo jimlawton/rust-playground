@@ -47,7 +47,15 @@
 ### General
 
 - [Learn how to read a file in Rust](https://blog.logrocket.com/how-to-read-files-rust/).
-- Article on Rust HTTP clients: https://blog.logrocket.com/best-rust-http-client/
+- Article on Rust HTTP clients: https://blog.logrocket.com/best-rust-http-client/.
+- [Understanding String and &str in Rust](https://blog.logrocket.com/understanding-rust-string-str/).
+- [Understanding the Rust borrow checker](https://blog.logrocket.com/introducing-rust-borrow-checker/).
+- [5 automatic verification tools for Rust and when to use each](https://blog.logrocket.com/5-automatic-verification-tools-rust/).
+- [Optimizing CI/CD pipelines in your Rust projects](https://blog.logrocket.com/optimizing-ci-cd-pipelines-rust-projects/).
+- [A guide to cross-compilation in Rust](https://blog.logrocket.com/guide-cross-compilation-rust/).
+- [Optimizing Rust code with LLVM: A detailed breakdown](https://blog.logrocket.com/optimizing-rust-code-llvm/).
+- [Understanding Rust disambiguating traits: Copy, Clone, and Dynamic](https://blog.logrocket.com/disambiguating-rust-traits-copy-clone-dynamic/).
+- [How to deploy Lambda functions in Rust](https://blog.logrocket.com/deploy-lambda-functions-rust/).
 
 ### Async
 
@@ -59,6 +67,7 @@
 
 - Article on [Rust code coverage](https://blog.rng0.io/how-to-do-code-coverage-in-rust/) from 2022.
 - The [test chapter](https://doc.rust-lang.org/book/ch11-00-testing.html) from the Rust book.
+- [How to organize your Rust tests](https://blog.logrocket.com/how-to-organize-rust-tests/).
 - [Reaching 100% code coverage in Rust](https://trane-project.github.io/blog/100_code_coverage.html).
 - [Code coverage in Rust](https://rrmprogramming.com/article/code-coverage-in-rust/).
 - `cargo-llvm-cov` is a wrapper around the gory details described here: https://doc.rust-lang.org/rustc/instrument-coverage.html.
