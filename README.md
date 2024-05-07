@@ -83,6 +83,8 @@ These are crates I have found useful.
 - `cargo-llvm-cov` is a wrapper around the gory details here: https://doc.rust-lang.org/rustc/instrument-coverage.html.
 - [Reaching 100% code coverage in Rust](https://trane-project.github.io/blog/100_code_coverage.html).
 - [Code coverage in Rust](https://rrmprogramming.com/article/code-coverage-in-rust/).
+- [Mocking in Rust: Mockall and alternatives](https://blog.logrocket.com/mocking-rust-mockall-alternatives/).
+- [mockall](https://docs.rs/mockall/).
 
 
 ### HTTP
