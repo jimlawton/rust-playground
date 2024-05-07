@@ -61,8 +61,8 @@
 - The [test chapter](https://doc.rust-lang.org/book/ch11-00-testing.html) from the Rust book.
 - [Reaching 100% code coverage in Rust](https://trane-project.github.io/blog/100_code_coverage.html).
 - [Code coverage in Rust](https://rrmprogramming.com/article/code-coverage-in-rust/).
+- `cargo-llvm-cov` is a wrapper around the gory details described here: https://doc.rust-lang.org/rustc/instrument-coverage.html.
 - [Mocking in Rust: Mockall and alternatives](https://blog.logrocket.com/mocking-rust-mockall-alternatives/).
-- [mockall](https://docs.rs/mockall/).
 - [Mocking in Async Rust](https://www.vortexa.com/insights/technology/mocking-in-async-rust/).
 
 ## Useful Crates
@@ -100,7 +100,7 @@ These are crates I have found useful.
 
 - [ctor](https://docs.rs/ctor/latest/ctor/) - this is a macro that can define global (per executable) constructor/destructor functions. I have used it to register a test setup function per module, to ensure that logging is only initialized once.
 - [cargo-llvm-cov](https://lib.rs/crates/cargo-llvm-cov) - a very handy Cargo tool to run instrumented tests and generate coverage analysis.
-- `cargo-llvm-cov` is a wrapper around the gory details described here: https://doc.rust-lang.org/rustc/instrument-coverage.html.
+- [mockall](https://docs.rs/mockall/).
 
 
 ### HTTP
