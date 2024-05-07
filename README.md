@@ -42,6 +42,28 @@
 - [Design Patterns in Rust](https://rust-unofficial.github.io/patterns/) - [PDF](https://rust-unofficial.github.io/patterns/rust-design-patterns.pdf)
 - [Awesome Rust](https://github.com/rust-unofficial/awesome-rust)
 
+## Useful Articles
+
+### General
+
+- [Learn how to read a file in Rust](https://blog.logrocket.com/how-to-read-files-rust/).
+- Article on Rust HTTP clients: https://blog.logrocket.com/best-rust-http-client/
+
+### Async
+
+- [The Async Rust Book](https://rust-lang.github.io/async-book/).
+- [Async Rust Is A Bad Language](https://bitbashing.io/async-rust.html).
+- [A practical guide to async in Rust](https://blog.logrocket.com/a-practical-guide-to-async-in-rust/).
+
+### Test
+
+- Article on [Rust code coverage](https://blog.rng0.io/how-to-do-code-coverage-in-rust/) from 2022.
+- The [test chapter](https://doc.rust-lang.org/book/ch11-00-testing.html) from the Rust book.
+- [Reaching 100% code coverage in Rust](https://trane-project.github.io/blog/100_code_coverage.html).
+- [Code coverage in Rust](https://rrmprogramming.com/article/code-coverage-in-rust/).
+- [Mocking in Rust: Mockall and alternatives](https://blog.logrocket.com/mocking-rust-mockall-alternatives/).
+- [mockall](https://docs.rs/mockall/).
+- [Mocking in Async Rust](https://www.vortexa.com/insights/technology/mocking-in-async-rust/).
 
 ## Useful Crates
 
@@ -77,20 +99,12 @@ These are crates I have found useful.
 ### Test
 
 - [ctor](https://docs.rs/ctor/latest/ctor/) - this is a macro that can define global (per executable) constructor/destructor functions. I have used it to register a test setup function per module, to ensure that logging is only initialized once.
-- Article on [Rust code coverage](https://blog.rng0.io/how-to-do-code-coverage-in-rust/) from 2022.
-- The [test chapter](https://doc.rust-lang.org/book/ch11-00-testing.html) from the Rust book.
 - [cargo-llvm-cov](https://lib.rs/crates/cargo-llvm-cov) - a very handy Cargo tool to run instrumented tests and generate coverage analysis.
-- `cargo-llvm-cov` is a wrapper around the gory details here: https://doc.rust-lang.org/rustc/instrument-coverage.html.
-- [Reaching 100% code coverage in Rust](https://trane-project.github.io/blog/100_code_coverage.html).
-- [Code coverage in Rust](https://rrmprogramming.com/article/code-coverage-in-rust/).
-- [Mocking in Rust: Mockall and alternatives](https://blog.logrocket.com/mocking-rust-mockall-alternatives/).
-- [mockall](https://docs.rs/mockall/).
-- [Mocking in Async Rust](https://www.vortexa.com/insights/technology/mocking-in-async-rust/).
+- `cargo-llvm-cov` is a wrapper around the gory details described here: https://doc.rust-lang.org/rustc/instrument-coverage.html.
 
 
 ### HTTP
 
-- Article on Rust HTTP clients: https://blog.logrocket.com/best-rust-http-client/
 - Rust curl package: https://docs.rs/curl/0.4.46/curl/index.html
 - Hyper package: https://hyper.rs/ and https://github.com/hyperium/hyper
 
