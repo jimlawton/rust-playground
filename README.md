@@ -85,6 +85,7 @@ These are crates I have found useful.
 - [Code coverage in Rust](https://rrmprogramming.com/article/code-coverage-in-rust/).
 - [Mocking in Rust: Mockall and alternatives](https://blog.logrocket.com/mocking-rust-mockall-alternatives/).
 - [mockall](https://docs.rs/mockall/).
+- [Mocking in Async Rust](https://www.vortexa.com/insights/technology/mocking-in-async-rust/).
 
 
 ### HTTP
