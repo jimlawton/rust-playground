@@ -98,6 +98,7 @@ These are crates I have found useful.
 - [sha2](https://crates.io/crates/sha2) - a pure Rust implementation of SHA family (including SHA-256, SHA-512).
 - [snafu](https://crates.io/crates/snafu) - a nice way of constructing error enum types.
 - [uuid](https://crates.io/crates/uuid) - UUID library, can convert to/from a `u128`. You probably want to enable the `"v4"` feature.
+- AWS SDK for Rust: https://github.com/awslabs/aws-sdk-rust,https://aws.amazon.com/sdk-for-rust/.
 
 ### Low-level
 
