@@ -111,6 +111,7 @@ These are crates I have found useful.
 - [ctor](https://docs.rs/ctor/latest/ctor/) - this is a macro that can define global (per executable) constructor/destructor functions. I have used it to register a test setup function per module, to ensure that logging is only initialized once.
 - [cargo-llvm-cov](https://lib.rs/crates/cargo-llvm-cov) - a very handy Cargo tool to run instrumented tests and generate coverage analysis.
 - [mockall](https://docs.rs/mockall/).
+- [serial_test](https://docs.rs/serial_test/0.4.0/serial_test/) - a useful crate to add a `serial` attribute to serialise Rust tests (which are all parallel by default).
 
 
 ### HTTP
