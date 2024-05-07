@@ -56,6 +56,7 @@
 - [Optimizing Rust code with LLVM: A detailed breakdown](https://blog.logrocket.com/optimizing-rust-code-llvm/).
 - [Understanding Rust disambiguating traits: Copy, Clone, and Dynamic](https://blog.logrocket.com/disambiguating-rust-traits-copy-clone-dynamic/).
 - [How to deploy Lambda functions in Rust](https://blog.logrocket.com/deploy-lambda-functions-rust/).
+- [24 days of Rust blog](https://zsiciarz.github.io/24daysofrust/index.html).
 
 ### Async
 
