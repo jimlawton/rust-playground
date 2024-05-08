@@ -57,17 +57,6 @@
 - [How to deploy Lambda functions in Rust](https://blog.logrocket.com/deploy-lambda-functions-rust/).
 - [24 days of Rust blog](https://zsiciarz.github.io/24daysofrust/index.html).
 
-### HTTP
-
-- Article on Rust HTTP clients: https://blog.logrocket.com/best-rust-http-client/.
-- [The HTTP crash course nobody asked for](https://fasterthanli.me/articles/the-http-crash-course-nobody-asked-for) - discusses `reqwest`, `hyper`, HTTP/2.
-
-### Async
-
-- [The Async Rust Book](https://rust-lang.github.io/async-book/).
-- [Async Rust Is A Bad Language](https://bitbashing.io/async-rust.html).
-- [A practical guide to async in Rust](https://blog.logrocket.com/a-practical-guide-to-async-in-rust/).
-
 ### Test
 
 - Article on [Rust code coverage](https://blog.rng0.io/how-to-do-code-coverage-in-rust/) from 2022.
@@ -78,6 +67,17 @@
 - `cargo-llvm-cov` is a wrapper around the gory details described here: https://doc.rust-lang.org/rustc/instrument-coverage.html.
 - [Mocking in Rust: Mockall and alternatives](https://blog.logrocket.com/mocking-rust-mockall-alternatives/).
 - [Mocking in Async Rust](https://www.vortexa.com/insights/technology/mocking-in-async-rust/).
+
+### HTTP
+
+- Article on Rust HTTP clients: https://blog.logrocket.com/best-rust-http-client/.
+- [The HTTP crash course nobody asked for](https://fasterthanli.me/articles/the-http-crash-course-nobody-asked-for) - discusses `reqwest`, `hyper`, HTTP/2.
+
+### Async
+
+- [The Async Rust Book](https://rust-lang.github.io/async-book/).
+- [Async Rust Is A Bad Language](https://bitbashing.io/async-rust.html).
+- [A practical guide to async in Rust](https://blog.logrocket.com/a-practical-guide-to-async-in-rust/).
 
 ## Useful Crates
 
