@@ -47,7 +47,6 @@
 ### General
 
 - [Learn how to read a file in Rust](https://blog.logrocket.com/how-to-read-files-rust/).
-- Article on Rust HTTP clients: https://blog.logrocket.com/best-rust-http-client/.
 - [Understanding String and &str in Rust](https://blog.logrocket.com/understanding-rust-string-str/).
 - [Understanding the Rust borrow checker](https://blog.logrocket.com/introducing-rust-borrow-checker/).
 - [5 automatic verification tools for Rust and when to use each](https://blog.logrocket.com/5-automatic-verification-tools-rust/).
@@ -57,6 +56,11 @@
 - [Understanding Rust disambiguating traits: Copy, Clone, and Dynamic](https://blog.logrocket.com/disambiguating-rust-traits-copy-clone-dynamic/).
 - [How to deploy Lambda functions in Rust](https://blog.logrocket.com/deploy-lambda-functions-rust/).
 - [24 days of Rust blog](https://zsiciarz.github.io/24daysofrust/index.html).
+
+### HTTP
+
+- Article on Rust HTTP clients: https://blog.logrocket.com/best-rust-http-client/.
+- [The HTTP crash course nobody asked for](https://fasterthanli.me/articles/the-http-crash-course-nobody-asked-for) - discusses `reqwest`, `hyper`, HTTP/2.
 
 ### Async
 
