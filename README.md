@@ -117,8 +117,9 @@ These are crates I have found useful.
 
 ### HTTP
 
-- Rust curl package: https://docs.rs/curl/0.4.46/curl/index.html
-- Hyper package: https://hyper.rs/ and https://github.com/hyperium/hyper
+- Rust curl package: https://docs.rs/curl/0.4.46/curl/index.html.
+- Hyper package: https://hyper.rs/ and https://github.com/hyperium/hyper.
+- Hyper stubs: https://docs.rs/hyper-stub/latest/hyper_stub/ (useful for unit tests).
 
 ### Async
 
