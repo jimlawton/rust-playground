@@ -110,6 +110,7 @@ These are crates I have found useful.
 - [prost](https://crates.io/crates/prost) - Protobuf implementation.
 - [prost-types](https://crates.io/crates/prost-types) - Prost definitions for Protobuf well-known types; I don't know if this is actually n3eded, but `prost` pulled it in.
 - [prost-build](https://crates.io/crates/prost-build) - this is a build tool that wraps `protoc`. It really is super-easy to use. Very nice.
+- [nom](https://docs.rs/nom/latest/nom/) - a parser combinator library written in Rust.
 
 ### Test
 
