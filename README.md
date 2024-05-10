@@ -56,6 +56,8 @@
 - [Understanding Rust disambiguating traits: Copy, Clone, and Dynamic](https://blog.logrocket.com/disambiguating-rust-traits-copy-clone-dynamic/).
 - [How to deploy Lambda functions in Rust](https://blog.logrocket.com/deploy-lambda-functions-rust/).
 - [24 days of Rust blog](https://zsiciarz.github.io/24daysofrust/index.html).
+- [Borrow checking, RC, GC, and the Eleven Other Memory Safety Approaches](https://verdagon.dev/grimoire/grimoire).
+- [The search for easier safe systems programming](https://www.sophiajt.com/search-for-easier-safe-systems-programming/) - this article describes a new language called [June](https://github.com/sophiajt/june), Rust-like, but with simpler semantics.
 
 ### Test
 
