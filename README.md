@@ -70,17 +70,29 @@
 - [Mocking in Rust: Mockall and alternatives](https://blog.logrocket.com/mocking-rust-mockall-alternatives/).
 - [Mocking in Async Rust](https://www.vortexa.com/insights/technology/mocking-in-async-rust/).
 
+### Networking
+
+- Tokio [tutorial](https://tokio.rs/tokio/tutorial).
+- The [Remote development with Rust on fly.io](https://fasterthanli.me/articles/remote-development-with-rust-on-fly-io) article by `fasterthanli.me` has a [good section in the middle](https://fasterthanli.me/articles/remote-development-with-rust-on-fly-io#a-naive-tcp-proxy-with-tokio) on building a TCP proxy.
+- [A TCP proxy in 30 lines of Rust](https://github.com/0xekez/tcp-proxy).
+- Another Rust [TCP proxy](https://github.com/hishboy/rust-tcp-proxy) example.
+- A Rust crate for a [TCP proxy](https://crates.io/crates/tcpproxy).
+
 ### HTTP
 
 - Article on Rust HTTP clients: https://blog.logrocket.com/best-rust-http-client/.
 - [The HTTP crash course nobody asked for](https://fasterthanli.me/articles/the-http-crash-course-nobody-asked-for) - discusses `reqwest`, `hyper`, HTTP/2.
+- [Pingora](https://github.com/cloudflare/pingora) is a Rust framework from Cloudflare for building proxies (and more).
+- Pingora [blog post](https://blog.cloudflare.com/how-we-built-pingora-the-proxy-that-connects-cloudflare-to-the-internet).
+- Pingora is [open-source](https://blog.cloudflare.com/pingora-open-source).
+- [River](https://www.memorysafety.org/initiative/reverse-proxy/) is a reverse proxy based on Pingora, being built by ISRG, Cloudflare, Shopify, Chainguard.
 
 ### Async
 
 - [The Async Rust Book](https://rust-lang.github.io/async-book/).
 - [Async Rust Is A Bad Language](https://bitbashing.io/async-rust.html).
 - [A practical guide to async in Rust](https://blog.logrocket.com/a-practical-guide-to-async-in-rust/).
-
+- [An Introduction to Asynchronous Programming in Rust and a High-level Overview of Tokio's Architecture](https://moslehian.com/posts/2023/1-intro-async-rust-tokio/).
 ## Useful Crates
 
 These are crates I have found useful.
