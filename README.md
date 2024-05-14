@@ -135,7 +135,10 @@ These are crates I have found useful.
 - [cargo-llvm-cov](https://lib.rs/crates/cargo-llvm-cov) - a very handy Cargo tool to run instrumented tests and generate coverage analysis.
 - [mockall](https://docs.rs/mockall/).
 - [serial_test](https://docs.rs/serial_test/0.4.0/serial_test/) - a useful crate to add a `serial` attribute to serialise Rust tests (which are all parallel by default).
-
+- [socket-server-mocker](https://docs.rs/socket-server-mocker/latest/socket_server_mocker/) is a useful crate that allows you to mock arbitrary socket operations, handy when you're dealing with TCP protocols.
+- [mockito](https://docs.rs/mockito/latest/mockito/) is a more comprehensive HTTP mocking library.
+- [httpmock](https://docs.rs/httpmock/latest/httpmock/) is another HTTP mocking library.
+- [wiremock](https://docs.rs/wiremock/latest/wiremock/) is another HTTP mocking library, which seems to be the newest of this set.
 
 ### HTTP
 
