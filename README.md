@@ -19,6 +19,7 @@
 - [The Rustonomicon](https://doc.rust-lang.org/nomicon/index.html) - unsafe Rust
 - [Idiomatic Rust](https://github.com/mre/idiomatic-rust)
 - [Rust Language Cheat Sheet](https://cheats.rs/) - [PDF](https://cheats.rs/dl/rust_cheat_sheet_a4.pdf)
+- [rustdoc book](https://doc.rust-lang.org/rustdoc/what-is-rustdoc.html).
 
 ### Training
 
@@ -46,6 +47,7 @@
 
 ### General
 
+- [Command Line Applications in Rust](https://rust-cli.github.io/book/).
 - [Learn how to read a file in Rust](https://blog.logrocket.com/how-to-read-files-rust/).
 - [Understanding String and &str in Rust](https://blog.logrocket.com/understanding-rust-string-str/).
 - [Understanding the Rust borrow checker](https://blog.logrocket.com/introducing-rust-borrow-checker/).
@@ -93,6 +95,7 @@
 - [Async Rust Is A Bad Language](https://bitbashing.io/async-rust.html).
 - [A practical guide to async in Rust](https://blog.logrocket.com/a-practical-guide-to-async-in-rust/).
 - [An Introduction to Asynchronous Programming in Rust and a High-level Overview of Tokio's Architecture](https://moslehian.com/posts/2023/1-intro-async-rust-tokio/).
+
 ## Useful Crates
 
 These are crates I have found useful.
