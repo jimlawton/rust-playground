@@ -33,6 +33,7 @@
 - [Rust in Motion](https://www.manning.com/livevideo/rust-in-motion?a_aid=cnichols&a_bid=6a993c2e) - video course, paid.
 - [Tour of Rust](https://tourofrust.com/)
 - [Rust Development Classes](https://rust-classes.com/)
+- From C to Rust: [part 1](https://levelup.gitconnected.com/from-c-to-rust-f280f160e05d), [part 2](https://levelup.gitconnected.com/from-c-to-rust-part-ii-aaaab74941a0), [part 3](https://levelup.gitconnected.com/from-c-to-rust-part-iii-44c9dce4f5d3), [part 4](https://levelup.gitconnected.com/from-c-to-rust-part-4-embracing-flexibility-1266d8d95323).
 
 ### Ecosystem
 
