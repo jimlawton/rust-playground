@@ -25,15 +25,21 @@
 
 - [Rustlings](https://github.com/rust-lang/rustlings/) - an excellent learn-by-doing site, using small bounded exercises.
 - [Rust by Example](https://doc.rust-lang.org/rust-by-example/) - a collection of runnable examples that illustrate various Rust concepts and standard libraries.
-- [Command-line apps in Rust book](https://rust-cli.github.io/book/index.html)
-- [Rust and WASM book](https://rustwasm.github.io/docs/book/)
-- [Embedded Rust book](https://doc.rust-lang.org/stable/embedded-book/)
 - [Rust Cookbook](https://rust-lang-nursery.github.io/rust-cookbook/)
-- [Rust in Action](https://www.manning.com/books/rust-in-action) - book, paid.
 - [Rust in Motion](https://www.manning.com/livevideo/rust-in-motion?a_aid=cnichols&a_bid=6a993c2e) - video course, paid.
 - [Tour of Rust](https://tourofrust.com/)
 - [Rust Development Classes](https://rust-classes.com/)
 - From C to Rust: [part 1](https://levelup.gitconnected.com/from-c-to-rust-f280f160e05d), [part 2](https://levelup.gitconnected.com/from-c-to-rust-part-ii-aaaab74941a0), [part 3](https://levelup.gitconnected.com/from-c-to-rust-part-iii-44c9dce4f5d3), [part 4](https://levelup.gitconnected.com/from-c-to-rust-part-4-embracing-flexibility-1266d8d95323).
+- [100 Exercises to Learn Rust](https://rust-exercises.com/).
+
+### Books
+
+- [The Rust Book](https://doc.rust-lang.org/book/) - the definitive documentation.
+- [Command-line apps in Rust book](https://rust-cli.github.io/book/index.html)
+- [Rust and WASM book](https://rustwasm.github.io/docs/book/)
+- [Embedded Rust book](https://doc.rust-lang.org/stable/embedded-book/)
+- [Rust in Action](https://www.manning.com/books/rust-in-action) - book, paid.
+- [Zero to Production in Rust](https://www.zero2prod.com/index.html).
 
 ### Ecosystem
 
