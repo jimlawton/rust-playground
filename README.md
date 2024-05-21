@@ -78,6 +78,7 @@
 - `cargo-llvm-cov` is a wrapper around the gory details described here: https://doc.rust-lang.org/rustc/instrument-coverage.html.
 - [Mocking in Rust: Mockall and alternatives](https://blog.logrocket.com/mocking-rust-mockall-alternatives/).
 - [Mocking in Async Rust](https://www.vortexa.com/insights/technology/mocking-in-async-rust/).
+- [Rust fuzz book](https://rust-fuzz.github.io/book/cargo-fuzz.html).
 
 ### Networking
 
