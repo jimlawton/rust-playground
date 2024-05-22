@@ -49,6 +49,7 @@
 - [Compiler error index](https://doc.rust-lang.org/error_codes/error-index.html)
 - [Design Patterns in Rust](https://rust-unofficial.github.io/patterns/) - [PDF](https://rust-unofficial.github.io/patterns/rust-design-patterns.pdf)
 - [Awesome Rust](https://github.com/rust-unofficial/awesome-rust)
+- When you're building, you sometimes need to know about [environment variables](https://doc.rust-lang.org/cargo/reference/environment-variables.html#environment-variables-cargo-sets-for-build-scripts) used by the Rust build process. Note especially `CARGO_MANIFEST_DIR` which you can use to find the root of your source code from a target build directory. Also note that the builds run by `publish` run in the context of a target directory, so you may be unpleasantly surprised by a `build` that works, but a `publish` that fails.
 
 ## Useful Articles
 
