@@ -94,10 +94,12 @@
 
 - Article on Rust HTTP clients: https://blog.logrocket.com/best-rust-http-client/.
 - [The HTTP crash course nobody asked for](https://fasterthanli.me/articles/the-http-crash-course-nobody-asked-for) - discusses `reqwest`, `hyper`, HTTP/2.
-- [Pingora](https://github.com/cloudflare/pingora) is a Rust framework from Cloudflare for building proxies (and more).
+- [Pingora](https://github.com/cloudflare/pingora) is a Rust framework from Cloudflare for building proxies (and more) (2022-2024).
 - Pingora [blog post](https://blog.cloudflare.com/how-we-built-pingora-the-proxy-that-connects-cloudflare-to-the-internet).
 - Pingora is [open-source](https://blog.cloudflare.com/pingora-open-source).
 - [River](https://www.memorysafety.org/initiative/reverse-proxy/) is a reverse proxy based on Pingora, being built by ISRG, Cloudflare, Shopify, Chainguard.
+- A simple [reverse proxy](https://github.com/randommm/pingora-reverse-proxy) built on Pingora.
+- [Oxy](https://blog.cloudflare.com/introducing-oxy/), another Rust-based proxy framework from Cloudflare (2023). This one is proprietary, and only some components have been open-sourced ([boring](https://github.com/cloudflare/boring), [quiche](https://github.com/cloudflare/quiche)).
 
 ### Async
 
