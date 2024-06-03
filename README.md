@@ -109,6 +109,13 @@
 - [A practical guide to async in Rust](https://blog.logrocket.com/a-practical-guide-to-async-in-rust/).
 - [An Introduction to Asynchronous Programming in Rust and a High-level Overview of Tokio's Architecture](https://moslehian.com/posts/2023/1-intro-async-rust-tokio/).
 
+### JSON
+
+- [Parsing JSON with Rust](https://whoisryosuke.com/blog/2022/parsing-json-with-rust).
+- [Serde](https://serde.rs/) is a framework for serializing and deserializing Rust data structures efficiently and generically.
+- [Serde JSON](https://github.com/serde-rs/json).
+- [jsonschema-rs](https://github.com/serde-rs/json), a JSON schema validator.
+
 ## Useful Crates
 
 These are crates I have found useful.
@@ -162,3 +169,9 @@ These are crates I have found useful.
 ### Async
 
 - Tokio: https://tokio.rs/ - the de-facto async runtime for Rust.
+
+### JSON
+
+- [serde](https://docs.rs/serde/latest/serde/).
+- [serde_json](https://crates.io/crates/serde_json).
+- [jsonschema](https://crates.io/crates/jsonschema).
