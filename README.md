@@ -116,6 +116,14 @@
 - [Serde JSON](https://github.com/serde-rs/json).
 - [jsonschema-rs](https://github.com/serde-rs/json), a JSON schema validator.
 
+### Caching
+
+- [Caches in Rust](https://matklad.github.io/2022/06/11/caches-in-rust.html).
+- [cached](https://github.com/jaemk/cached) provides implementations of several caching structures as well as a handy macros for defining memoized functions.
+- [lru](https://lib.rs/crates/lru), an LRU cache implementation.
+- [cacache](https://lib.rs/crates/cacache), a content-addressable, key-value, high-performance, on-disk cache.
+- [Building a Rust Caching System: A Step-by-Step Guide](https://medium.com/@emmaxcharles123/building-a-rust-caching-system-a-step-by-step-guide-8eda3912455d).
+
 ## Useful Crates
 
 These are crates I have found useful.
