@@ -114,6 +114,7 @@
 - [Parsing JSON with Rust](https://whoisryosuke.com/blog/2022/parsing-json-with-rust).
 - [Serde](https://serde.rs/) is a framework for serializing and deserializing Rust data structures efficiently and generically.
 - [Serde JSON](https://github.com/serde-rs/json).
+- [serde_valid](https://docs.rs/serde_valid/latest/serde_valid/), adds schema validation to `serde`.
 - [jsonschema-rs](https://github.com/serde-rs/json), a JSON schema validator.
 
 ### Caching
