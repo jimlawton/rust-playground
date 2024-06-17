@@ -1,4 +1,4 @@
-# rust-playground
+# Rust Playground
 
 ## Rust Resources
 
@@ -31,6 +31,7 @@
 - [Rust Development Classes](https://rust-classes.com/)
 - From C to Rust: [part 1](https://levelup.gitconnected.com/from-c-to-rust-f280f160e05d), [part 2](https://levelup.gitconnected.com/from-c-to-rust-part-ii-aaaab74941a0), [part 3](https://levelup.gitconnected.com/from-c-to-rust-part-iii-44c9dce4f5d3), [part 4](https://levelup.gitconnected.com/from-c-to-rust-part-4-embracing-flexibility-1266d8d95323).
 - [100 Exercises to Learn Rust](https://rust-exercises.com/).
+- [Code Crafters Master Rust Exercises](https://app.codecrafters.io/tracks/rust).
 
 ### Books
 
@@ -69,6 +70,7 @@
 - [24 days of Rust blog](https://zsiciarz.github.io/24daysofrust/index.html).
 - [Borrow checking, RC, GC, and the Eleven Other Memory Safety Approaches](https://verdagon.dev/grimoire/grimoire).
 - [The search for easier safe systems programming](https://www.sophiajt.com/search-for-easier-safe-systems-programming/) - this article describes a new language called [June](https://github.com/sophiajt/june), Rust-like, but with simpler semantics.
+- [Rust error handling cheat-sheet](https://gist.github.com/e-t-u/70f25d4566468adc43a4df43667cedb6).
 
 ### Test
 
@@ -84,6 +86,7 @@
 
 ### Networking
 
+- [TCP servers in Rust](https://app.codecrafters.io/concepts/rust-tcp-server). This discusses the basics of TCP servers in Rust, using synchronous APIs from the standard library.
 - Tokio [tutorial](https://tokio.rs/tokio/tutorial).
 - The [Remote development with Rust on fly.io](https://fasterthanli.me/articles/remote-development-with-rust-on-fly-io) article by `fasterthanli.me` has a [good section in the middle](https://fasterthanli.me/articles/remote-development-with-rust-on-fly-io#a-naive-tcp-proxy-with-tokio) on building a TCP proxy.
 - [A TCP proxy in 30 lines of Rust](https://github.com/0xekez/tcp-proxy).
@@ -157,6 +160,7 @@ These are crates I have found useful.
 - [prost-types](https://crates.io/crates/prost-types) - Prost definitions for Protobuf well-known types; I don't know if this is actually n3eded, but `prost` pulled it in.
 - [prost-build](https://crates.io/crates/prost-build) - this is a build tool that wraps `protoc`. It really is super-easy to use. Very nice.
 - [nom](https://docs.rs/nom/latest/nom/) - a parser combinator library written in Rust.
+- [Changes to `u128`/`i128` layout in 1.77 and 1.78](https://blog.rust-lang.org/2024/03/30/i128-layout-update.html).
 
 ### Test
 
