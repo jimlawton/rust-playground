@@ -105,6 +105,18 @@
 - A simple [reverse proxy](https://github.com/randommm/pingora-reverse-proxy) built on Pingora.
 - [Oxy](https://blog.cloudflare.com/introducing-oxy/), another Rust-based proxy framework from Cloudflare (2023). This one is proprietary, and only some components have been open-sourced ([boring](https://github.com/cloudflare/boring), [quiche](https://github.com/cloudflare/quiche)).
 
+### gRPC
+
+- [Tonic](https://github.com/hyperium/tonic) is probably the most comprehensive Rust implementation of gRPC. See also it's [crate page](https://docs.rs/tonic/latest/tonic/).
+- Tonic has been [adopted](https://groups.google.com/g/grpc-io/c/ExbWWLaGHjI) by the CNCF gRPC team as the basis for a future standard full-featured Rust gRPC implementation.
+- [grpc](https://crates.io/crates/grpc) is another Rust gRPC implementation.
+- [Rust and gRPC: A complete guide](https://blog.logrocket.com/rust-and-grpc-a-complete-guide/).
+- [Introduction to gRPC in Rust](https://romankudryashov.com/blog/2021/04/grpc-rust/).
+- [Building gRPC APIs with Rust](https://konghq.com/blog/engineering/building-grpc-apis-with-rust).
+- [gRPC over HTTP/2 in Rust](https://www.linkedin.com/pulse/grpc-over-http2-rust-luis-soares-m-sc-/).
+- [Quick Start to gRPC Using Rust](https://golangly.com/index.php/2023/10/06/quick-start-to-grpc-using-rust/).
+- [grpccurl](https://github.com/fullstorydev/grpcurl), a command-line gRPC client.
+
 ### Async
 
 - [The Async Rust Book](https://rust-lang.github.io/async-book/).
