@@ -39,6 +39,7 @@
 - [Command-line apps in Rust book](https://rust-cli.github.io/book/index.html)
 - [Rust and WASM book](https://rustwasm.github.io/docs/book/)
 - [Embedded Rust book](https://doc.rust-lang.org/stable/embedded-book/)
+- [Programming in Rust](https://www.oreilly.com/library/view/programming-rust-2nd/9781492052586/)
 - [Rust in Action](https://www.manning.com/books/rust-in-action) - book, paid.
 - [Zero to Production in Rust](https://www.zero2prod.com/index.html).
 
