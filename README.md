@@ -141,6 +141,14 @@
 - [cacache](https://lib.rs/crates/cacache), a content-addressable, key-value, high-performance, on-disk cache.
 - [Building a Rust Caching System: A Step-by-Step Guide](https://medium.com/@emmaxcharles123/building-a-rust-caching-system-a-step-by-step-guide-8eda3912455d).
 
+### Parsing
+
+- [A Beginners Guide to Parsing in Rust](https://depth-first.com/articles/2021/12/16/a-beginners-guide-to-parsing-in-rust/)
+- [Parsing with nom, a gentle introduction](https://stevedonovan.github.io/rust-gentle-intro/nom-intro.html)
+- [Text Processing in Rust](https://www.linuxjournal.com/content/text-processing-rust)
+- [Beginner, Intermediate and Advanced Parsing in Rust](https://www.rustadventure.dev/beginner-intermediate-and-advanced-parsing-in-rust)
+- [Parsing Text with nom](https://blog.adamchalmers.com/nom-chars/)
+
 ## Useful Crates
 
 These are crates I have found useful.
