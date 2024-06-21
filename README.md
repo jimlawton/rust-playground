@@ -115,6 +115,8 @@
 
 - [Tonic](https://github.com/hyperium/tonic) is probably the most comprehensive Rust implementation of gRPC. See also it's [crate page](https://docs.rs/tonic/latest/tonic/).
 - Tonic has been [adopted](https://groups.google.com/g/grpc-io/c/ExbWWLaGHjI) by the CNCF gRPC team as the basis for a future standard full-featured Rust gRPC implementation.
+- [Tonic examples](https://github.com/hyperium/tonic/tree/master/examples).
+- [Tonic build](https://docs.rs/tonic-build/latest/tonic_build/).
 - [grpc](https://crates.io/crates/grpc) is another Rust gRPC implementation.
 - [Rust and gRPC: A complete guide](https://blog.logrocket.com/rust-and-grpc-a-complete-guide/).
 - [Introduction to gRPC in Rust](https://romankudryashov.com/blog/2021/04/grpc-rust/).
@@ -204,6 +206,11 @@ These are crates I have found useful.
 - Rust curl package: https://docs.rs/curl/0.4.46/curl/index.html.
 - Hyper package: https://hyper.rs/ and https://github.com/hyperium/hyper.
 - Hyper stubs: https://docs.rs/hyper-stub/latest/hyper_stub/ (useful for unit tests).
+
+### gRPC
+
+- [tonic](https://docs.rs/tonic/latest/tonic/).
+- [tonic_build](https://docs.rs/tonic-build/latest/tonic_build/).
 
 ### Async
 
