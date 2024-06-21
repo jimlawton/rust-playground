@@ -52,7 +52,6 @@
 - [Design Patterns in Rust](https://rust-unofficial.github.io/patterns/) - [PDF](https://rust-unofficial.github.io/patterns/rust-design-patterns.pdf)
 - [Awesome Rust](https://github.com/rust-unofficial/awesome-rust)
 - When you're building, you sometimes need to know about [environment variables](https://doc.rust-lang.org/cargo/reference/environment-variables.html#environment-variables-cargo-sets-for-build-scripts) used by the Rust build process. Note especially `CARGO_MANIFEST_DIR` which you can use to find the root of your source code from a target build directory. Also note that the builds run by `publish` run in the context of a target directory, so you may be unpleasantly surprised by a `build` that works, but a `publish` that fails.
-- [First steps with Docker + Rust](https://dev.to/rogertorres/first-steps-with-docker-rust-30oi).
 
 ## Useful Articles
 
@@ -72,6 +71,12 @@
 - [Borrow checking, RC, GC, and the Eleven Other Memory Safety Approaches](https://verdagon.dev/grimoire/grimoire).
 - [The search for easier safe systems programming](https://www.sophiajt.com/search-for-easier-safe-systems-programming/) - this article describes a new language called [June](https://github.com/sophiajt/june), Rust-like, but with simpler semantics.
 - [Rust error handling cheat-sheet](https://gist.github.com/e-t-u/70f25d4566468adc43a4df43667cedb6).
+
+## Containers
+
+- [First steps with Docker + Rust](https://dev.to/rogertorres/first-steps-with-docker-rust-30oi) - a useful article on getting a Rust multi-stage build working, this can give you an image size of about 100MB.
+- https://dev.to/mattdark/rust-docker-image-optimization-with-multi-stage-builds-4b6c - a newer article, which mentions distroless, haven't tried this, but it might be a better option than Alpine/MUSL.
+- [Creating Lightweight Docker Images with Rust](https://medium.com/@pabloperezaradros/creating-lightweight-docker-images-with-rust-0db47cb014a9) - this article uses Alpine.
 
 ### Test
 
