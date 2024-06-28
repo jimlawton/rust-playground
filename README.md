@@ -32,6 +32,8 @@
 - From C to Rust: [part 1](https://levelup.gitconnected.com/from-c-to-rust-f280f160e05d), [part 2](https://levelup.gitconnected.com/from-c-to-rust-part-ii-aaaab74941a0), [part 3](https://levelup.gitconnected.com/from-c-to-rust-part-iii-44c9dce4f5d3), [part 4](https://levelup.gitconnected.com/from-c-to-rust-part-4-embracing-flexibility-1266d8d95323).
 - [100 Exercises to Learn Rust](https://rust-exercises.com/).
 - [Code Crafters Master Rust Exercises](https://app.codecrafters.io/tracks/rust).
+- [Tech-rs](https://github.com/trifectatechfoundation/teach-rs) is a university-level Rust course for CS students, available to anyone.
+- [Rust-101](https://www.ralfj.de/projects/rust-101/main.html), an online tutorial.
 
 ### Books
 
@@ -52,6 +54,7 @@
 - [Design Patterns in Rust](https://rust-unofficial.github.io/patterns/) - [PDF](https://rust-unofficial.github.io/patterns/rust-design-patterns.pdf)
 - [Awesome Rust](https://github.com/rust-unofficial/awesome-rust)
 - When you're building, you sometimes need to know about [environment variables](https://doc.rust-lang.org/cargo/reference/environment-variables.html#environment-variables-cargo-sets-for-build-scripts) used by the Rust build process. Note especially `CARGO_MANIFEST_DIR` which you can use to find the root of your source code from a target build directory. Also note that the builds run by `publish` run in the context of a target directory, so you may be unpleasantly surprised by a `build` that works, but a `publish` that fails.
+- [rust-learning](https://github.com/ctjhoa/rust-learning) is a curated collection of blog posts, videos, etc., on learning Rust.
 
 ## Useful Articles
 
