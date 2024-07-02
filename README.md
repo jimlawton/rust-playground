@@ -74,6 +74,9 @@
 - [Borrow checking, RC, GC, and the Eleven Other Memory Safety Approaches](https://verdagon.dev/grimoire/grimoire).
 - [The search for easier safe systems programming](https://www.sophiajt.com/search-for-easier-safe-systems-programming/) - this article describes a new language called [June](https://github.com/sophiajt/june), Rust-like, but with simpler semantics.
 - [Rust error handling cheat-sheet](https://gist.github.com/e-t-u/70f25d4566468adc43a4df43667cedb6).
+- [The Definitive Guide to Rust Error Handling](https://www.howtocodeit.com/articles/the-definitive-guide-to-rust-error-handling).
+- [The ultimate guide to Rust newtypes](https://www.howtocodeit.com/articles/ultimate-guide-rust-newtypes).
+- [Rust ownership explained: merging linked lists](https://www.howtocodeit.com/articles/rust-ownership-explained-linked-lists).
 
 ## Containers
 
