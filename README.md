@@ -77,6 +77,7 @@
 - [The Definitive Guide to Rust Error Handling](https://www.howtocodeit.com/articles/the-definitive-guide-to-rust-error-handling).
 - [The ultimate guide to Rust newtypes](https://www.howtocodeit.com/articles/ultimate-guide-rust-newtypes).
 - [Rust ownership explained: merging linked lists](https://www.howtocodeit.com/articles/rust-ownership-explained-linked-lists).
+- [Rust Options in Practice](https://willbaker.dev/posts/result-and-option/) - useful article on the details of Rust `Option`.
 
 ## Containers
 
