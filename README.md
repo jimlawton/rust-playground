@@ -73,11 +73,14 @@
 - [24 days of Rust blog](https://zsiciarz.github.io/24daysofrust/index.html).
 - [Borrow checking, RC, GC, and the Eleven Other Memory Safety Approaches](https://verdagon.dev/grimoire/grimoire).
 - [The search for easier safe systems programming](https://www.sophiajt.com/search-for-easier-safe-systems-programming/) - this article describes a new language called [June](https://github.com/sophiajt/june), Rust-like, but with simpler semantics.
-- [Rust error handling cheat-sheet](https://gist.github.com/e-t-u/70f25d4566468adc43a4df43667cedb6).
-- [The Definitive Guide to Rust Error Handling](https://www.howtocodeit.com/articles/the-definitive-guide-to-rust-error-handling).
 - [The ultimate guide to Rust newtypes](https://www.howtocodeit.com/articles/ultimate-guide-rust-newtypes).
 - [Rust ownership explained: merging linked lists](https://www.howtocodeit.com/articles/rust-ownership-explained-linked-lists).
 - [Rust Options in Practice](https://willbaker.dev/posts/result-and-option/) - useful article on the details of Rust `Option`.
+
+## Error Handling
+
+- [Rust error handling cheat-sheet](https://gist.github.com/e-t-u/70f25d4566468adc43a4df43667cedb6).
+- [The Definitive Guide to Rust Error Handling](https://www.howtocodeit.com/articles/the-definitive-guide-to-rust-error-handling).
 
 ## Containers
 
@@ -190,6 +193,7 @@ These are crates I have found useful.
 - [snafu](https://crates.io/crates/snafu) - a nice way of constructing error enum types.
 - [uuid](https://crates.io/crates/uuid) - UUID library, can convert to/from a `u128`. You probably want to enable the `"v4"` feature.
 - AWS SDK for Rust: https://github.com/awslabs/aws-sdk-rust,https://aws.amazon.com/sdk-for-rust/.
+- [anyhow](https://docs.rs/anyhow/latest/anyhow/index.html) - idiomatic error handling.
 
 ### Low-level
 
