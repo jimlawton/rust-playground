@@ -76,6 +76,7 @@
 - [The ultimate guide to Rust newtypes](https://www.howtocodeit.com/articles/ultimate-guide-rust-newtypes).
 - [Rust ownership explained: merging linked lists](https://www.howtocodeit.com/articles/rust-ownership-explained-linked-lists).
 - [Rust Options in Practice](https://willbaker.dev/posts/result-and-option/) - useful article on the details of Rust `Option`.
+- [Changes to `u128`/`i128` layout in 1.77 and 1.78](https://blog.rust-lang.org/2024/03/30/i128-layout-update.html).
 
 ## Error Handling
 
@@ -107,7 +108,8 @@
 - The [Remote development with Rust on fly.io](https://fasterthanli.me/articles/remote-development-with-rust-on-fly-io) article by `fasterthanli.me` has a [good section in the middle](https://fasterthanli.me/articles/remote-development-with-rust-on-fly-io#a-naive-tcp-proxy-with-tokio) on building a TCP proxy.
 - [A TCP proxy in 30 lines of Rust](https://github.com/0xekez/tcp-proxy).
 - Another Rust [TCP proxy](https://github.com/hishboy/rust-tcp-proxy) example.
-- A Rust crate for a [TCP proxy](https://crates.io/crates/tcpproxy).
+- A Rust c [What I learned from making a DNS client in Rust](https://blog.adamchalmers.com/making-a-dns-client/).
+-
 
 ### HTTP
 
@@ -202,7 +204,7 @@ These are crates I have found useful.
 - [prost-types](https://crates.io/crates/prost-types) - Prost definitions for Protobuf well-known types; I don't know if this is actually n3eded, but `prost` pulled it in.
 - [prost-build](https://crates.io/crates/prost-build) - this is a build tool that wraps `protoc`. It really is super-easy to use. Very nice.
 - [nom](https://docs.rs/nom/latest/nom/) - a parser combinator library written in Rust.
-- [Changes to `u128`/`i128` layout in 1.77 and 1.78](https://blog.rust-lang.org/2024/03/30/i128-layout-update.html).
+- [bitvec](https://docs.rs/crate/bitvec/latest) - bit manipulation library.
 
 ### Test
 
@@ -235,3 +237,10 @@ These are crates I have found useful.
 - [serde](https://docs.rs/serde/latest/serde/).
 - [serde_json](https://crates.io/crates/serde_json).
 - [jsonschema](https://crates.io/crates/jsonschema).
+
+### DNS
+
+- [rustdns](https://docs.rs/rustdns/latest/rustdns/).
+- [hickory-dns](https://github.com/hickory-dns/hickory-dns).
+- [domain](https://crates.io/crates/domain).
+- [trust-dns](https://trust-dns.org/).
