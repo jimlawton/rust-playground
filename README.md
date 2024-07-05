@@ -170,6 +170,8 @@
 - [Text Processing in Rust](https://www.linuxjournal.com/content/text-processing-rust)
 - [Beginner, Intermediate and Advanced Parsing in Rust](https://www.rustadventure.dev/beginner-intermediate-and-advanced-parsing-in-rust)
 - [Parsing Text with nom](https://blog.adamchalmers.com/nom-chars/)
+- [Learning Parser Combinators With Rust](https://bodil.lol/parser-combinators/).
+- [Parsing in Rust with nom](https://blog.logrocket.com/parsing-in-rust-with-nom).
 
 ## Useful Crates
 
