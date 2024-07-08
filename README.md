@@ -34,6 +34,7 @@
 - [Code Crafters Master Rust Exercises](https://app.codecrafters.io/tracks/rust).
 - [Tech-rs](https://github.com/trifectatechfoundation/teach-rs) is a university-level Rust course for CS students, available to anyone.
 - [Rust-101](https://www.ralfj.de/projects/rust-101/main.html), an online tutorial.
+- [rust-learning](https://github.com/ctjhoa/rust-learning) is a curated collection of blog posts, videos, etc., on learning Rust.
 
 ### Books
 
@@ -44,22 +45,27 @@
 - [Programming in Rust](https://www.oreilly.com/library/view/programming-rust-2nd/9781492052586/)
 - [Rust in Action](https://www.manning.com/books/rust-in-action) - book, paid.
 - [Zero to Production in Rust](https://www.zero2prod.com/index.html).
+- [Rustdoc book](https://doc.rust-lang.org/rustdoc/index.html)
+- [Rustc manual](https://doc.rust-lang.org/rustc/index.html)
 
 ### Ecosystem
 
 - [Cargo book](https://doc.rust-lang.org/cargo/index.html)
-- [Rustdoc book](https://doc.rust-lang.org/rustdoc/index.html)
-- [Rustc manual](https://doc.rust-lang.org/rustc/index.html)
-- [Compiler error index](https://doc.rust-lang.org/error_codes/error-index.html)
-- [Design Patterns in Rust](https://rust-unofficial.github.io/patterns/) - [PDF](https://rust-unofficial.github.io/patterns/rust-design-patterns.pdf)
+- [crates.io](https://crates.io/) - the official Rust package repository.
+- [Blessed](https://blessed.rs/crates) - an unofficial guide to choosing crates, manually updated.
+- [lib.rs](https://lib.rs/) - an automated Rust crate catalog.
+- [docs.rs](https://docs.rs/) - crate documentation.
 - [Awesome Rust](https://github.com/rust-unofficial/awesome-rust)
-- When you're building, you sometimes need to know about [environment variables](https://doc.rust-lang.org/cargo/reference/environment-variables.html#environment-variables-cargo-sets-for-build-scripts) used by the Rust build process. Note especially `CARGO_MANIFEST_DIR` which you can use to find the root of your source code from a target build directory. Also note that the builds run by `publish` run in the context of a target directory, so you may be unpleasantly surprised by a `build` that works, but a `publish` that fails.
-- [rust-learning](https://github.com/ctjhoa/rust-learning) is a curated collection of blog posts, videos, etc., on learning Rust.
+- [cargo-license](https://github.com/onur/cargo-license) is a useful tool that prints out the licenses of all dependencies in your package.
+- [cargo-audit](https://docs.rs/cargo-audit/latest/cargo_audit/) is a tool that scans all the dependencies and versions in your package for any known vulnerabilities.
 
 ## Useful Articles
 
 ### General
 
+- [Compiler error index](https://doc.rust-lang.org/error_codes/error-index.html)
+- [Design Patterns in Rust](https://rust-unofficial.github.io/patterns/) - [PDF](https://rust-unofficial.github.io/patterns/rust-design-patterns.pdf)
+- When you're building, you sometimes need to know about [environment variables](https://doc.rust-lang.org/cargo/reference/environment-variables.html#environment-variables-cargo-sets-for-build-scripts) used by the Rust build process. Note especially `CARGO_MANIFEST_DIR` which you can use to find the root of your source code from a target build directory. Also note that the builds run by `publish` run in the context of a target directory, so you may be unpleasantly surprised by a `build` that works, but a `publish` that fails.
 - [Command Line Applications in Rust](https://rust-cli.github.io/book/).
 - [Learn how to read a file in Rust](https://blog.logrocket.com/how-to-read-files-rust/).
 - [Understanding String and &str in Rust](https://blog.logrocket.com/understanding-rust-string-str/).
@@ -77,6 +83,7 @@
 - [Rust ownership explained: merging linked lists](https://www.howtocodeit.com/articles/rust-ownership-explained-linked-lists).
 - [Rust Options in Practice](https://willbaker.dev/posts/result-and-option/) - useful article on the details of Rust `Option`.
 - [Changes to `u128`/`i128` layout in 1.77 and 1.78](https://blog.rust-lang.org/2024/03/30/i128-layout-update.html).
+- [Long-term Rust Project Maintenance](https://corrode.dev/blog/long-term-rust-maintenance/) - a **really good** article on Rust maintenance, covering lots of topis (e.g., how do you choose which 3rd-party crates to use).
 
 ## Error Handling
 
