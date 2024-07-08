@@ -173,6 +173,16 @@
 - [Learning Parser Combinators With Rust](https://bodil.lol/parser-combinators/).
 - [Parsing in Rust with nom](https://blog.logrocket.com/parsing-in-rust-with-nom).
 
+### Macros
+
+- **NOTE** There is an [RFC](https://github.com/rust-lang/rfcs/blob/master/text/1584-macros.md) in [progress](https://github.com/rust-lang/rust/issues/39412) for a 2.0 version of macros.
+- [Macros chapter in the Rust Book](https://doc.rust-lang.org/book/ch19-06-macros.html).
+- [The Little Book of Rust Macros](https://veykril.github.io/tlborm/) - this is a very good in-depth explanation with examples.
+- [Macros section in Rust By Example](https://doc.rust-lang.org/rust-by-example/macros.html).
+- [Macros chapter in the Language Reference](https://doc.rust-lang.org/reference/macros.html).
+- [Procedural Macros in Rust – A Handbook for Beginners](https://www.freecodecamp.org/news/procedural-macros-in-rust/).
+- [Macros in Rust: A tutorial with examples](https://blog.logrocket.com/macros-in-rust-a-tutorial-with-examples/).
+
 ## Useful Crates
 
 These are crates I have found useful.
