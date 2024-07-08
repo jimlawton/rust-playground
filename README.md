@@ -145,6 +145,8 @@
 - [Async Rust Is A Bad Language](https://bitbashing.io/async-rust.html).
 - [A practical guide to async in Rust](https://blog.logrocket.com/a-practical-guide-to-async-in-rust/).
 - [An Introduction to Asynchronous Programming in Rust and a High-level Overview of Tokio's Architecture](https://moslehian.com/posts/2023/1-intro-async-rust-tokio/).
+- [Async Programming in Rust — Exploring Tokio and Async-std](https://medium.com/@AlexanderObregon/async-programming-in-rust-exploring-tokio-and-async-std-97d4b524cef0).
+- [The State of Async Rust: Runtimes](https://corrode.dev/blog/async/) - excellent state of async Rust, as of February 2024.
 
 ### JSON
 
