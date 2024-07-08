@@ -108,8 +108,7 @@
 - The [Remote development with Rust on fly.io](https://fasterthanli.me/articles/remote-development-with-rust-on-fly-io) article by `fasterthanli.me` has a [good section in the middle](https://fasterthanli.me/articles/remote-development-with-rust-on-fly-io#a-naive-tcp-proxy-with-tokio) on building a TCP proxy.
 - [A TCP proxy in 30 lines of Rust](https://github.com/0xekez/tcp-proxy).
 - Another Rust [TCP proxy](https://github.com/hishboy/rust-tcp-proxy) example.
-- A Rust c [What I learned from making a DNS client in Rust](https://blog.adamchalmers.com/making-a-dns-client/).
--
+- [What I learned from making a DNS client in Rust](https://blog.adamchalmers.com/making-a-dns-client/).
 
 ### HTTP
 
