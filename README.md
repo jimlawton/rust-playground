@@ -107,6 +107,7 @@
 - [Mocking in Rust: Mockall and alternatives](https://blog.logrocket.com/mocking-rust-mockall-alternatives/).
 - [Mocking in Async Rust](https://www.vortexa.com/insights/technology/mocking-in-async-rust/).
 - [Rust fuzz book](https://rust-fuzz.github.io/book/cargo-fuzz.html).
+- [Properly Testing Concurrent Data Structures](https://matklad.github.io/2024/07/05/properly-testing-concurrent-data-structures.html).
 
 ### Networking
 
@@ -190,6 +191,7 @@
 - [Macros chapter in the Language Reference](https://doc.rust-lang.org/reference/macros.html).
 - [Procedural Macros in Rust – A Handbook for Beginners](https://www.freecodecamp.org/news/procedural-macros-in-rust/).
 - [Macros in Rust: A tutorial with examples](https://blog.logrocket.com/macros-in-rust-a-tutorial-with-examples/).
+- [Writing production Rust macros with macro_rules!](https://www.howtocodeit.com/articles/writing-production-rust-macros-with-macro-rules).
 
 ## Useful Crates
 
