@@ -108,6 +108,7 @@
 - [Mocking in Async Rust](https://www.vortexa.com/insights/technology/mocking-in-async-rust/).
 - [Rust fuzz book](https://rust-fuzz.github.io/book/cargo-fuzz.html).
 - [Properly Testing Concurrent Data Structures](https://matklad.github.io/2024/07/05/properly-testing-concurrent-data-structures.html).
+- [The sad state of property-based testing libraries](https://stevana.github.io/the_sad_state_of_property-based_testing_libraries.html).
 
 ### Networking
 
@@ -238,6 +239,9 @@ These are crates I have found useful.
 - [mockito](https://docs.rs/mockito/latest/mockito/) is a more comprehensive HTTP mocking library.
 - [httpmock](https://docs.rs/httpmock/latest/httpmock/) is another HTTP mocking library.
 - [wiremock](https://docs.rs/wiremock/latest/wiremock/) is another HTTP mocking library, which seems to be the newest of this set.
+- [proptest](https://github.com/proptest-rs/proptest) is a property-based testing framework.
+- [quickcheck](https://github.com/BurntSushi/quickcheck) is another property-testing framework, based on the Haskell original.
+- [loom](https://github.com/tokio-rs/loom) is a test library for testing concurrent Rust code.
 
 ### HTTP
 
