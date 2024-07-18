@@ -118,6 +118,8 @@
 - [A TCP proxy in 30 lines of Rust](https://github.com/0xekez/tcp-proxy).
 - Another Rust [TCP proxy](https://github.com/hishboy/rust-tcp-proxy) example.
 - [What I learned from making a DNS client in Rust](https://blog.adamchalmers.com/making-a-dns-client/).
+- [BoringTun](https://github.com/cloudflare/boringtun) - Cloudflare's user-space Rust WireGuard implementation.
+- [WebRTC.rs](https://github.com/webrtc-rs/webrtc/) - a pure Rust implementation of the WebRTC stack, including DTLS, STUN, mDNS.
 
 ### HTTP
 
