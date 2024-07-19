@@ -35,6 +35,7 @@
 - [Tech-rs](https://github.com/trifectatechfoundation/teach-rs) is a university-level Rust course for CS students, available to anyone.
 - [Rust-101](https://www.ralfj.de/projects/rust-101/main.html), an online tutorial.
 - [rust-learning](https://github.com/ctjhoa/rust-learning) is a curated collection of blog posts, videos, etc., on learning Rust.
+- [Yet Another Rust Resource](https://yarr.fyi/) is a short crash course in Rust, aimed specifically at high-level programmers (e.g. Python). It contains exercises to be tried as you go. A [blog post](https://ntietz.com/blog/introducing-yet-another-rust-resource-or-yarr/) explains the background. Also available as a [PDF](https://yarr.fyi/yarr.pdf).
 
 ### Books
 
