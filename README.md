@@ -84,6 +84,7 @@
 - [Rust Options in Practice](https://willbaker.dev/posts/result-and-option/) - useful article on the details of Rust `Option`.
 - [Changes to `u128`/`i128` layout in 1.77 and 1.78](https://blog.rust-lang.org/2024/03/30/i128-layout-update.html).
 - [Long-term Rust Project Maintenance](https://corrode.dev/blog/long-term-rust-maintenance/) - a **really good** article on Rust maintenance, covering lots of topis (e.g., how do you choose which 3rd-party crates to use).
+- [How to organize large Rust codebases](https://kerkour.com/rust-how-to-organize-large-workspaces) - a good, short, article on organising large code bases.
 
 ## Error Handling
 
