@@ -60,6 +60,12 @@
 - [cargo-license](https://github.com/onur/cargo-license) is a useful tool that prints out the licenses of all dependencies in your package.
 - [cargo-audit](https://docs.rs/cargo-audit/latest/cargo_audit/) is a tool that scans all the dependencies and versions in your package for any known vulnerabilities.
 
+### Tools
+
+- [Guide on how to write documentation for a Rust crate](https://blog.guillaume-gomez.fr/articles/2020-03-12+Guide+on+how+to+write+documentation+for+a+Rust+crate)
+- [Mermaid inline diagrams](https://frehberg.com/2022/12/docs-as-code-mermaid-inline-diagrams/)
+- [doc-comment](https://github.com/GuillaumeGomez/doc-comment) - run examples from Markdown as tests.
+
 ### Blogs
 - [The Rust Language Blog](https://blog.rust-lang.org/)
 - [This Week in Rust](https://this-week-in-rust.org/)
