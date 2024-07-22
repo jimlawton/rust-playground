@@ -60,6 +60,22 @@
 - [cargo-license](https://github.com/onur/cargo-license) is a useful tool that prints out the licenses of all dependencies in your package.
 - [cargo-audit](https://docs.rs/cargo-audit/latest/cargo_audit/) is a tool that scans all the dependencies and versions in your package for any known vulnerabilities.
 
+### Blogs
+- [The Rust Language Blog](https://blog.rust-lang.org/)
+- [This Week in Rust](https://this-week-in-rust.org/)
+- [Awesome Rust Weekly](https://rust.libhunt.com/newsletter)
+- [fasterthanli.me](https://fasterthanli.me/)
+- [Rust Internals](https://internals.rust-lang.org/latest)
+- [Anna Hope](https://annahope.me/blog/)
+- [Mara's Blog](https://blog.m-ou.se/)
+- [matklad](https://matklad.github.io/)
+- [Faultlore](https://faultlore.com/blah/#articles)
+- [Lord](https://lord.io/)
+- [Matt Brubeck](https://limpet.net/mbrubeck/)
+- [Nicholas Nethercote](https://nnethercote.github.io/)
+- [Ted Kaminski](https://www.tedinski.com/archive/)
+- [baby steps](https://smallcultfollowing.com/babysteps/)
+
 ## Useful Articles
 
 ### General
