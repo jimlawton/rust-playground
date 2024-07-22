@@ -75,6 +75,14 @@
 - [Nicholas Nethercote](https://nnethercote.github.io/)
 - [Ted Kaminski](https://www.tedinski.com/archive/)
 - [baby steps](https://smallcultfollowing.com/babysteps/)
+- [Marco Ieni](https://www.marcoieni.com/)
+
+### Podcasts
+
+- [The Rustacean Station](https://rustacean-station.org/)
+- [Changelog - Rust](https://changelog.com/topic/rust)
+- [Rust in Production](https://corrode.dev/podcast/)
+- [Marco Ieni - RustShip](https://open.spotify.com/show/3tLnLLWcvJyYTwMSi67zEA)
 
 ## Useful Articles
 
