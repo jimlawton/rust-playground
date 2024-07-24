@@ -228,6 +228,18 @@
 - [Macros in Rust: A tutorial with examples](https://blog.logrocket.com/macros-in-rust-a-tutorial-with-examples/).
 - [Writing production Rust macros with macro_rules!](https://www.howtocodeit.com/articles/writing-production-rust-macros-with-macro-rules).
 
+### AWS
+
+- [AWS SDK for Rust](https://aws.amazon.com/sdk-for-rust/)
+- [S3 Examples](https://docs.aws.amazon.com/sdk-for-rust/latest/dg/rust_s3_code_examples.html)
+- [AWS SDK Example Sources](https://github.com/awsdocs/aws-doc-sdk-examples)
+- [S3 code examples](https://github.com/awsdocs/aws-doc-sdk-examples/tree/main/rustv1/examples/s3)
+- [Config code examples](https://github.com/awsdocs/aws-doc-sdk-examples/tree/main/rustv1/examples/config)
+- [IAM code examples](https://github.com/awsdocs/aws-doc-sdk-examples/tree/main/rustv1/examples/iam)
+- [STS code examples](https://github.com/awsdocs/aws-doc-sdk-examples/tree/main/rustv1/examples/sts)
+- [Secrets Manager code examples](https://github.com/awsdocs/aws-doc-sdk-examples/tree/main/rustv1/examples/secretsmanager)
+- [Unit testing](https://docs.aws.amazon.com/sdk-for-rust/latest/dg/testing.html)
+
 ## Useful Crates
 
 These are crates I have found useful.
