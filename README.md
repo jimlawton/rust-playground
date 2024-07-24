@@ -276,6 +276,7 @@ These are crates I have found useful.
 - [proptest](https://github.com/proptest-rs/proptest) is a property-based testing framework.
 - [quickcheck](https://github.com/BurntSushi/quickcheck) is another property-testing framework, based on the Haskell original.
 - [loom](https://github.com/tokio-rs/loom) is a test library for testing concurrent Rust code.
+- [mockall](https://docs.rs/mockall/latest/mockall/) is a popular mock object library for Rust.
 
 ### HTTP
 
