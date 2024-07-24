@@ -234,8 +234,8 @@ These are crates I have found useful.
 
 ### Logging
 
-- [log](https://crates.io/crates/log) - a lightweight logging facade, common API for all logging implementations.
 - [env_logger](https://docs.rs/env_logger/latest/env_logger/) - a logger that can be configured using env variables.
+- [log](https://crates.io/crates/log) - a lightweight logging facade, common API for all logging implementations.
 - [pretty_env_logger](https://crates.io/crates/pretty_env_logger) - a pretty logger implementation, which does colorizing, based on env_logger. This produces nice output, as long as you don't want to customize it. I switched to `env_logger`, once I started to do anything fancy.
 - [test-log](https://crates.io/crates/test-log) - a replacement for `#[test]` that initialises logging in test runs.
 
@@ -245,6 +245,7 @@ These are crates I have found useful.
 
 ### General
 
+- [anyhow](https://docs.rs/anyhow/latest/anyhow/index.html) - idiomatic error handling.
 - [hex-literal](https://crates.io/crates/hex-literal) - a handy `hex!` macro for converting hex literals to static byte arrays at compile time.
 - [phf](https://crates.io/crates/phf) - perfect hash function data structures; very useful for building static maps. Enable the `"macros"` feature.
 - [rand](https://crates.io/crates/rand) - RNG library; this is very comprehensive, see [Rust Rand Book](https://rust-random.github.io/book).
@@ -252,56 +253,55 @@ These are crates I have found useful.
 - [snafu](https://crates.io/crates/snafu) - a nice way of constructing error enum types.
 - [uuid](https://crates.io/crates/uuid) - UUID library, can convert to/from a `u128`. You probably want to enable the `"v4"` feature.
 - AWS SDK for Rust: [GitHub](https://github.com/awslabs/aws-sdk-rust), [AWS](https://aws.amazon.com/sdk-for-rust/), [crates.io](https://crates.io/teams/github:awslabs:rust-sdk-owners), [Docs](https://awslabs.github.io/aws-sdk-rust/).
-- [anyhow](https://docs.rs/anyhow/latest/anyhow/index.html) - idiomatic error handling.
 
 ### Low-level
 
-- [packed-struct](https://crates.io/crates/packed-struct) - this is a library for binary packing/unpacking to/from Rust structs; it is very powerful, but somewhat tricky to get the hang of initially. Documentation is sparse, and you will encounter some bizarre compiler errors when things go wrong. However, it has proven to be extremely useful. You probably need to enable the `"byte_types_256"` and `"byte_types_64"` features. I discovered by trial and error that `u128`s are not supported, i.e. `u64` is the biggest data type it will accept.
-- [prost](https://crates.io/crates/prost) - Protobuf implementation.
-- [prost-types](https://crates.io/crates/prost-types) - Prost definitions for Protobuf well-known types; I don't know if this is actually n3eded, but `prost` pulled it in.
-- [prost-build](https://crates.io/crates/prost-build) - this is a build tool that wraps `protoc`. It really is super-easy to use. Very nice.
-- [nom](https://docs.rs/nom/latest/nom/) - a parser combinator library written in Rust.
 - [bitvec](https://docs.rs/crate/bitvec/latest) - bit manipulation library.
+- [nom](https://docs.rs/nom/latest/nom/) - a parser combinator library written in Rust.
+- [packed-struct](https://crates.io/crates/packed-struct) - this is a library for binary packing/unpacking to/from Rust structs; it is very powerful, but somewhat tricky to get the hang of initially. Documentation is sparse, and you will encounter some bizarre compiler errors when things go wrong. However, it has proven to be extremely useful. You probably need to enable the `"byte_types_256"` and `"byte_types_64"` features. I discovered by trial and error that `u128`s are not supported, i.e. `u64` is the biggest data type it will accept.
+- [prost-build](https://crates.io/crates/prost-build) - this is a build tool that wraps `protoc`. It really is super-easy to use. Very nice.
+- [prost-types](https://crates.io/crates/prost-types) - Prost definitions for Protobuf well-known types; I don't know if this is actually n3eded, but `prost` pulled it in.
+- [prost](https://crates.io/crates/prost) - Protobuf implementation.
 
 ### Test
 
-- [ctor](https://docs.rs/ctor/latest/ctor/) - this is a macro that can define global (per executable) constructor/destructor functions. I have used it to register a test setup function per module, to ensure that logging is only initialized once.
 - [cargo-llvm-cov](https://lib.rs/crates/cargo-llvm-cov) - a very handy Cargo tool to run instrumented tests and generate coverage analysis.
-- [mockall](https://docs.rs/mockall/).
-- [serial_test](https://docs.rs/serial_test/0.4.0/serial_test/) - a useful crate to add a `serial` attribute to serialise Rust tests (which are all parallel by default).
-- [socket-server-mocker](https://docs.rs/socket-server-mocker/latest/socket_server_mocker/) is a useful crate that allows you to mock arbitrary socket operations, handy when you're dealing with TCP protocols.
-- [mockito](https://docs.rs/mockito/latest/mockito/) is a more comprehensive HTTP mocking library.
+- [ctor](https://docs.rs/ctor/latest/ctor/) - this is a macro that can define global (per executable) constructor/destructor functions. I have used it to register a test setup function per module, to ensure that logging is only initialized once.
 - [httpmock](https://docs.rs/httpmock/latest/httpmock/) is another HTTP mocking library.
-- [wiremock](https://docs.rs/wiremock/latest/wiremock/) is another HTTP mocking library, which seems to be the newest of this set.
+- [loom](https://github.com/tokio-rs/loom) is a test library for testing concurrent Rust code.
+- [mockall](https://docs.rs/mockall/).
+- [mockall](https://docs.rs/mockall/latest/mockall/) is a popular mock object library for Rust.
+- [mockito](https://docs.rs/mockito/latest/mockito/) is a more comprehensive HTTP mocking library.
 - [proptest](https://github.com/proptest-rs/proptest) is a property-based testing framework.
 - [quickcheck](https://github.com/BurntSushi/quickcheck) is another property-testing framework, based on the Haskell original.
-- [loom](https://github.com/tokio-rs/loom) is a test library for testing concurrent Rust code.
-- [mockall](https://docs.rs/mockall/latest/mockall/) is a popular mock object library for Rust.
+- [serial_test](https://docs.rs/serial_test/0.4.0/serial_test/) - a useful crate to add a `serial` attribute to serialise Rust tests (which are all parallel by default).
+- [socket-server-mocker](https://docs.rs/socket-server-mocker/latest/socket_server_mocker/) is a useful crate that allows you to mock arbitrary socket operations, handy when you're dealing with TCP protocols.
+- [wiremock](https://docs.rs/wiremock/latest/wiremock/) is another HTTP mocking library, which seems to be the newest of this set.
 
 ### HTTP
 
-- Rust curl package: https://docs.rs/curl/0.4.46/curl/index.html.
-- Hyper package: https://hyper.rs/ and https://github.com/hyperium/hyper.
-- Hyper stubs: https://docs.rs/hyper-stub/latest/hyper_stub/ (useful for unit tests).
+- [curl](https://docs.rs/curl/0.4.46/curl/index.html) - Rust curl package.
+- [hyper stubs](https://docs.rs/hyper-stub/latest/hyper_stub/) - useful for unit tests.
+- [hyper](https://hyper.rs/) and its [repo](https://github.com/hyperium/hyper) - Hyper HTTP crate.
 
 ### gRPC
 
-- [tonic](https://docs.rs/tonic/latest/tonic/).
 - [tonic_build](https://docs.rs/tonic-build/latest/tonic_build/).
+- [tonic](https://docs.rs/tonic/latest/tonic/).
 
 ### Async
 
-- Tokio: https://tokio.rs/ - the de-facto async runtime for Rust.
+- [tokio](https://tokio.rs/) - the de-facto async runtime for Rust.
 
 ### JSON
 
-- [serde](https://docs.rs/serde/latest/serde/).
-- [serde_json](https://crates.io/crates/serde_json).
 - [jsonschema](https://crates.io/crates/jsonschema).
+- [serde_json](https://crates.io/crates/serde_json).
+- [serde](https://docs.rs/serde/latest/serde/).
 
 ### DNS
 
-- [rustdns](https://docs.rs/rustdns/latest/rustdns/).
-- [hickory-dns](https://github.com/hickory-dns/hickory-dns).
 - [domain](https://crates.io/crates/domain).
+- [hickory-dns](https://github.com/hickory-dns/hickory-dns).
+- [rustdns](https://docs.rs/rustdns/latest/rustdns/).
 - [trust-dns](https://trust-dns.org/).
