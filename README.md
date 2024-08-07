@@ -103,8 +103,6 @@
 - [Understanding the Rust borrow checker](https://blog.logrocket.com/introducing-rust-borrow-checker/).
 - [5 automatic verification tools for Rust and when to use each](https://blog.logrocket.com/5-automatic-verification-tools-rust/).
 - [Optimizing CI/CD pipelines in your Rust projects](https://blog.logrocket.com/optimizing-ci-cd-pipelines-rust-projects/).
-- [A guide to cross-compilation in Rust](https://blog.logrocket.com/guide-cross-compilation-rust/).
-- [Optimizing Rust code with LLVM: A detailed breakdown](https://blog.logrocket.com/optimizing-rust-code-llvm/).
 - [Understanding Rust disambiguating traits: Copy, Clone, and Dynamic](https://blog.logrocket.com/disambiguating-rust-traits-copy-clone-dynamic/).
 - [How to deploy Lambda functions in Rust](https://blog.logrocket.com/deploy-lambda-functions-rust/).
 - [24 days of Rust blog](https://zsiciarz.github.io/24daysofrust/index.html).
@@ -130,7 +128,7 @@
 
 ### Test
 
-- Article on [Rust code coverage](https://blog.rng0.io/how-to-do-code-coverage-in-rust/) from 2022.
+- [Article](https://blog.rng0.io/how-to-do-code-coverage-in-rust/) on Rust code coverage from 2022.
 - The [test chapter](https://doc.rust-lang.org/book/ch11-00-testing.html) from the Rust book.
 - [How to organize your Rust tests](https://blog.logrocket.com/how-to-organize-rust-tests/).
 - [Reaching 100% code coverage in Rust](https://trane-project.github.io/blog/100_code_coverage.html).
@@ -239,6 +237,14 @@
 - [STS code examples](https://github.com/awsdocs/aws-doc-sdk-examples/tree/main/rustv1/examples/sts)
 - [Secrets Manager code examples](https://github.com/awsdocs/aws-doc-sdk-examples/tree/main/rustv1/examples/secretsmanager)
 - [Unit testing](https://docs.aws.amazon.com/sdk-for-rust/latest/dg/testing.html)
+
+### Advanced Topics
+
+- [Embedded Rust book](https://doc.rust-lang.org/stable/embedded-book/)
+- [Bare-metal Rust](https://google.github.io/comprehensive-rust/bare-metal.html)
+- [Developing a cryptographically secure bootloader for RISC-V in Rust](https://www.codethink.co.uk/articles/2024/secure_bootloader/)
+- [A guide to cross-compilation in Rust](https://blog.logrocket.com/guide-cross-compilation-rust/).
+- [Optimizing Rust code with LLVM: A detailed breakdown](https://blog.logrocket.com/optimizing-rust-code-llvm/).
 
 ## Useful Crates
 
