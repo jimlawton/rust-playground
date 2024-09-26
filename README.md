@@ -246,6 +246,7 @@
 - [Developing a cryptographically secure bootloader for RISC-V in Rust](https://www.codethink.co.uk/articles/2024/secure_bootloader/)
 - [A guide to cross-compilation in Rust](https://blog.logrocket.com/guide-cross-compilation-rust/).
 - [Optimizing Rust code with LLVM: A detailed breakdown](https://blog.logrocket.com/optimizing-rust-code-llvm/).
+- [The Rust Unstable Book](https://doc.rust-lang.org/unstable-book/the-unstable-book.html).
 
 ## Useful Crates
 
