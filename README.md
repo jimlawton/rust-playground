@@ -247,6 +247,7 @@
 - [A guide to cross-compilation in Rust](https://blog.logrocket.com/guide-cross-compilation-rust/).
 - [Optimizing Rust code with LLVM: A detailed breakdown](https://blog.logrocket.com/optimizing-rust-code-llvm/).
 - [The Rust Unstable Book](https://doc.rust-lang.org/unstable-book/the-unstable-book.html).
+- [Designing A Fast Concurrent Hash Table](https://ibraheem.ca/posts/designing-papaya/).
 
 ## Useful Crates
 
