@@ -189,6 +189,7 @@
 - [An Introduction to Asynchronous Programming in Rust and a High-level Overview of Tokio's Architecture](https://moslehian.com/posts/2023/1-intro-async-rust-tokio/).
 - [Async Programming in Rust — Exploring Tokio and Async-std](https://medium.com/@AlexanderObregon/async-programming-in-rust-exploring-tokio-and-async-std-97d4b524cef0).
 - [The State of Async Rust: Runtimes](https://corrode.dev/blog/async/) - excellent state of async Rust, as of February 2024.
+- [whorl - A single file, std only, async Rust executor](https://github.com/mgattozzi/whorl) - this is not really useable, but it is an excellent example of what an executor does.
 
 ### JSON
 
@@ -238,6 +239,10 @@
 - [STS code examples](https://github.com/awsdocs/aws-doc-sdk-examples/tree/main/rustv1/examples/sts)
 - [Secrets Manager code examples](https://github.com/awsdocs/aws-doc-sdk-examples/tree/main/rustv1/examples/secretsmanager)
 - [Unit testing](https://docs.aws.amazon.com/sdk-for-rust/latest/dg/testing.html)
+
+### Performance
+
+- [Always Measure One Level Deeper](https://cacm.acm.org/research/always-measure-one-level-deeper/) - not Rust specific, just good (by John Ousterhout).
 
 ### Advanced Topics
 
