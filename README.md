@@ -190,6 +190,7 @@
 - [Async Programming in Rust — Exploring Tokio and Async-std](https://medium.com/@AlexanderObregon/async-programming-in-rust-exploring-tokio-and-async-std-97d4b524cef0).
 - [The State of Async Rust: Runtimes](https://corrode.dev/blog/async/) - excellent state of async Rust, as of February 2024.
 - [whorl - A single file, std only, async Rust executor](https://github.com/mgattozzi/whorl) - this is not really useable, but it is an excellent example of what an executor does.
+- [Async Rust in Three Parts](https://jacko.io/async_intro.html).
 
 ### JSON
 
@@ -253,6 +254,7 @@
 - [Optimizing Rust code with LLVM: A detailed breakdown](https://blog.logrocket.com/optimizing-rust-code-llvm/).
 - [The Rust Unstable Book](https://doc.rust-lang.org/unstable-book/the-unstable-book.html).
 - [Designing A Fast Concurrent Hash Table](https://ibraheem.ca/posts/designing-papaya/).
+- [Using Rust in Non-Rust Servers to Improve Performance](https://github.com/pretzelhammer/rust-blog/blob/master/posts/rust-in-non-rust-servers.md).
 
 ## Useful Crates
 
