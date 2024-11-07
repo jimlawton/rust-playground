@@ -140,6 +140,7 @@
 - [Rust fuzz book](https://rust-fuzz.github.io/book/cargo-fuzz.html).
 - [Properly Testing Concurrent Data Structures](https://matklad.github.io/2024/07/05/properly-testing-concurrent-data-structures.html).
 - [The sad state of property-based testing libraries](https://stevana.github.io/the_sad_state_of_property-based_testing_libraries.html).
+- [Robust Rust: How Code Coverage Powers Rust Software Quality](https://medium.com/@gnanaganesh/robust-rust-how-code-coverage-powers-rust-software-quality-417ef3ac2360).
 
 ### Networking
 
