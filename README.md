@@ -234,15 +234,17 @@
 
 ### AWS
 
-- [AWS SDK for Rust](https://aws.amazon.com/sdk-for-rust/)
-- [S3 Examples](https://docs.aws.amazon.com/sdk-for-rust/latest/dg/rust_s3_code_examples.html)
-- [AWS SDK Example Sources](https://github.com/awsdocs/aws-doc-sdk-examples)
-- [S3 code examples](https://github.com/awsdocs/aws-doc-sdk-examples/tree/main/rustv1/examples/s3)
-- [Config code examples](https://github.com/awsdocs/aws-doc-sdk-examples/tree/main/rustv1/examples/config)
-- [IAM code examples](https://github.com/awsdocs/aws-doc-sdk-examples/tree/main/rustv1/examples/iam)
-- [STS code examples](https://github.com/awsdocs/aws-doc-sdk-examples/tree/main/rustv1/examples/sts)
-- [Secrets Manager code examples](https://github.com/awsdocs/aws-doc-sdk-examples/tree/main/rustv1/examples/secretsmanager)
-- [Unit testing](https://docs.aws.amazon.com/sdk-for-rust/latest/dg/testing.html)
+- [AWS SDK for Rust](https://aws.amazon.com/sdk-for-rust/).
+- [S3 Examples](https://docs.aws.amazon.com/sdk-for-rust/latest/dg/rust_s3_code_examples.html).
+- [AWS SDK Example Sources](https://github.com/awsdocs/aws-doc-sdk-examples).
+- [S3 code examples](https://github.com/awsdocs/aws-doc-sdk-examples/tree/main/rustv1/examples/s3).
+- [Config code examples](https://github.com/awsdocs/aws-doc-sdk-examples/tree/main/rustv1/examples/config).
+- [IAM code examples](https://github.com/awsdocs/aws-doc-sdk-examples/tree/main/rustv1/examples/iam).
+- [STS code examples](https://github.com/awsdocs/aws-doc-sdk-examples/tree/main/rustv1/examples/sts).
+- [Secrets Manager code examples](https://github.com/awsdocs/aws-doc-sdk-examples/tree/main/rustv1/examples/secretsmanager).
+- [Unit testing](https://docs.aws.amazon.com/sdk-for-rust/latest/dg/testing.html).
+- [Nine Rules for Accessing Cloud Files from Your Rust Code](https://towardsdatascience.com/nine-rules-for-accessing-cloud-files-from-your-rust-code-d456c1e2ceb4).
+- [Building with AWS S3 using Rust](https://www.shuttle.dev/blog/2024/04/17/using-aws-s3-rust).
 
 ### Performance
 
@@ -250,9 +252,9 @@
 
 ### Advanced Topics
 
-- [Embedded Rust book](https://doc.rust-lang.org/stable/embedded-book/)
-- [Bare-metal Rust](https://google.github.io/comprehensive-rust/bare-metal.html)
-- [Developing a cryptographically secure bootloader for RISC-V in Rust](https://www.codethink.co.uk/articles/2024/secure_bootloader/)
+- [Embedded Rust book](https://doc.rust-lang.org/stable/embedded-book/).
+- [Bare-metal Rust](https://google.github.io/comprehensive-rust/bare-metal.html).
+- [Developing a cryptographically secure bootloader for RISC-V in Rust](https://www.codethink.co.uk/articles/2024/secure_bootloader/).
 - [A guide to cross-compilation in Rust](https://blog.logrocket.com/guide-cross-compilation-rust/).
 - [Optimizing Rust code with LLVM: A detailed breakdown](https://blog.logrocket.com/optimizing-rust-code-llvm/).
 - [The Rust Unstable Book](https://doc.rust-lang.org/unstable-book/the-unstable-book.html).
@@ -336,3 +338,9 @@ These are crates I have found useful.
 - [hickory-dns](https://github.com/hickory-dns/hickory-dns).
 - [rustdns](https://docs.rs/rustdns/latest/rustdns/).
 - [trust-dns](https://trust-dns.org/).
+
+### AWS
+
+- [AWS SDK for Rust](https://aws.amazon.com/sdk-for-rust/).
+- [s3sync](https://docs.rs/s3sync/latest/s3sync/index.html) - a reliable, fast, powerful synchronization tool for S3, built on the AWS Rust SDK.
+- [notify](https://docs.rs/notify/latest/notify/) - file system notification library.
