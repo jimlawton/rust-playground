@@ -152,6 +152,7 @@
 - [What I learned from making a DNS client in Rust](https://blog.adamchalmers.com/making-a-dns-client/).
 - [BoringTun](https://github.com/cloudflare/boringtun) - Cloudflare's user-space Rust WireGuard implementation.
 - [WebRTC.rs](https://github.com/webrtc-rs/webrtc/) - a pure Rust implementation of the WebRTC stack, including DTLS, STUN, mDNS.
+- [g3](https://github.com/bytedance/g3) - open-source proxy solutions from Bytedance.
 
 ### HTTP
 
