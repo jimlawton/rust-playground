@@ -304,7 +304,6 @@ These are crates I have found useful.
 - [ctor](https://docs.rs/ctor/latest/ctor/) - this is a macro that can define global (per executable) constructor/destructor functions. I have used it to register a test setup function per module, to ensure that logging is only initialized once.
 - [httpmock](https://docs.rs/httpmock/latest/httpmock/) is another HTTP mocking library.
 - [loom](https://github.com/tokio-rs/loom) is a test library for testing concurrent Rust code.
-- [mockall](https://docs.rs/mockall/).
 - [mockall](https://docs.rs/mockall/latest/mockall/) is a popular mock object library for Rust.
 - [mockito](https://docs.rs/mockito/latest/mockito/) is a more comprehensive HTTP mocking library.
 - [proptest](https://github.com/proptest-rs/proptest) is a property-based testing framework.
@@ -312,6 +311,7 @@ These are crates I have found useful.
 - [serial_test](https://docs.rs/serial_test/0.4.0/serial_test/) - a useful crate to add a `serial` attribute to serialise Rust tests (which are all parallel by default).
 - [socket-server-mocker](https://docs.rs/socket-server-mocker/latest/socket_server_mocker/) is a useful crate that allows you to mock arbitrary socket operations, handy when you're dealing with TCP protocols.
 - [wiremock](https://docs.rs/wiremock/latest/wiremock/) is another HTTP mocking library, which seems to be the newest of this set.
+- [faux](https://github.com/nrxus/faux) is another mocking library.
 
 ### HTTP
 
