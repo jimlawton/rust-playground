@@ -196,6 +196,7 @@
 - [Async Rust in Three Parts](https://jacko.io/async_intro.html).
 - [Rust's concurrency model vs Go's concurrency model: stackless vs stackfull coroutines](https://kerkour.com/rust-vs-go-concurrency-models-stackfull-vs-stackless-coroutines).
 - [Async Rust: The new billion-dollar mistake?](https://kerkour.com/rust-async-billion-dollar-mistake).
+- [Announcing `async fn` and return-position `impl Trait` in traits](https://blog.rust-lang.org/2023/12/21/async-fn-rpit-in-traits.html) - this is a very important read for anyone using async functions in traits. Also, see the `trait-variant` crate.
 
 ### JSON
 
