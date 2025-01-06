@@ -82,6 +82,8 @@
 - [Ted Kaminski](https://www.tedinski.com/archive/)
 - [baby steps](https://smallcultfollowing.com/babysteps/)
 - [Marco Ieni](https://www.marcoieni.com/)
+- [Rust Trends](https://rust-trends.com/)
+- [The Embedded Rustacean](https://www.theembeddedrustacean.com/)
 
 ### Podcasts
 
