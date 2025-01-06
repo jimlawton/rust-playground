@@ -123,6 +123,18 @@
 - [Rust error handling cheat-sheet](https://gist.github.com/e-t-u/70f25d4566468adc43a4df43667cedb6).
 - [The Definitive Guide to Rust Error Handling](https://www.howtocodeit.com/articles/the-definitive-guide-to-rust-error-handling).
 - [Error Handling in Rust: Choosing Between thiserror and anyhow](https://medium.com/@evadawnley/error-handling-in-rust-choosing-between-thiserror-and-anyhow-6da5ce825d34).
+- [Error Handling for Large Rust Projects — A Deep Dive into GreptimeDB’s Practices](https://medium.com/@greptime/error-handling-for-large-rust-projects-a-deep-dive-into-5e10ee4cbc96).
+- [Rust Error Handling](https://www.unwoundstack.com/blog/rust-error-handling.html).
+- [Practical guide to Error Handling in Rust](https://dev-state.com/posts/error_handling/).
+- [Error handling in Rust: A comprehensive tutorial](https://blog.logrocket.com/error-handling-rust/).
+
+## Logging and Tracing
+
+- [Logging in Rust - How to Get Started](https://www.shuttle.dev/blog/2023/09/20/logging-in-rust).
+- [Logging in Rust](https://medium.com/nerd-for-tech/logging-in-rust-e529c241f92e) - log4rs.
+- [Comparing logging and tracing in Rust](https://blog.logrocket.com/comparing-logging-tracing-rust/).
+- [A Rust tracing primer](https://github.com/tugglecore/rust-tracing-primer).
+- [Getting Started with Tracing in Rust](https://www.shuttle.dev/blog/2024/01/09/getting-started-tracing-rust).
 
 ## Containers
 
