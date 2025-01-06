@@ -122,6 +122,7 @@
 
 - [Rust error handling cheat-sheet](https://gist.github.com/e-t-u/70f25d4566468adc43a4df43667cedb6).
 - [The Definitive Guide to Rust Error Handling](https://www.howtocodeit.com/articles/the-definitive-guide-to-rust-error-handling).
+- [Error Handling in Rust: Choosing Between thiserror and anyhow](https://medium.com/@evadawnley/error-handling-in-rust-choosing-between-thiserror-and-anyhow-6da5ce825d34).
 
 ## Containers
 
