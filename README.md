@@ -24,6 +24,7 @@
 ### Training
 
 - [Rustlings](https://github.com/rust-lang/rustlings/) - an excellent learn-by-doing site, using small bounded exercises.
+- [Rustfinity](https://www.rustfinity.com/) - very good site that has some great introductory [classes](https://www.rustfinity.com/learn/rust/getting-started), a nice set of [challenges](https://www.rustfinity.com/practice/rust/challenges), and also hosts the [Advent of Rust](https://www.rustfinity.com/advent-of-rust).
 - [Rust by Example](https://doc.rust-lang.org/rust-by-example/) - a collection of runnable examples that illustrate various Rust concepts and standard libraries.
 - [Rust Cookbook](https://rust-lang-nursery.github.io/rust-cookbook/)
 - [Rust in Motion](https://www.manning.com/livevideo/rust-in-motion?a_aid=cnichols&a_bid=6a993c2e) - video course, paid.
