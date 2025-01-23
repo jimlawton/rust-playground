@@ -121,7 +121,7 @@
 
 ## Error Handling
 
-- [Rust error handling cheat-sheet](https://gist.github.com/e-t-u/70f25d4566468adc43a4df43667cedb6).
+- [Rust error handling cheat-sheet](https://gist.github.com/e-t-u/70f25d4566468adc43a4df43667cedb6) - this is a very good series of articles, 3 so far.
 - [The Definitive Guide to Rust Error Handling](https://www.howtocodeit.com/articles/the-definitive-guide-to-rust-error-handling).
 - [Error Handling in Rust: Choosing Between thiserror and anyhow](https://medium.com/@evadawnley/error-handling-in-rust-choosing-between-thiserror-and-anyhow-6da5ce825d34).
 - [Error Handling for Large Rust Projects — A Deep Dive into GreptimeDB’s Practices](https://medium.com/@greptime/error-handling-for-large-rust-projects-a-deep-dive-into-5e10ee4cbc96).
@@ -157,6 +157,7 @@
 - [Properly Testing Concurrent Data Structures](https://matklad.github.io/2024/07/05/properly-testing-concurrent-data-structures.html).
 - [The sad state of property-based testing libraries](https://stevana.github.io/the_sad_state_of_property-based_testing_libraries.html).
 - [Robust Rust: How Code Coverage Powers Rust Software Quality](https://medium.com/@gnanaganesh/robust-rust-how-code-coverage-powers-rust-software-quality-417ef3ac2360).
+- [Embedding Python in Rust for tests](https://www.enterprisedb.com/blog/embedding-python-rust-tests).
 
 ### Networking
 
