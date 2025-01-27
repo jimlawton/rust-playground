@@ -49,6 +49,7 @@
 - [Zero to Production in Rust](https://www.zero2prod.com/index.html).
 - [Rustdoc book](https://doc.rust-lang.org/rustdoc/index.html)
 - [Rustc manual](https://doc.rust-lang.org/rustc/index.html)
+- [Rust for C-Programmers](https://rust-for-c-programmers.salewskis.de).
 
 ### Ecosystem
 
