@@ -281,6 +281,7 @@
 - [The Rust Unstable Book](https://doc.rust-lang.org/unstable-book/the-unstable-book.html).
 - [Designing A Fast Concurrent Hash Table](https://ibraheem.ca/posts/designing-papaya/).
 - [Using Rust in Non-Rust Servers to Improve Performance](https://github.com/pretzelhammer/rust-blog/blob/master/posts/rust-in-non-rust-servers.md).
+- [Deadlock Issues in Rust’s DashMap: A Practical Case Study](https://savannahar68.medium.com/deadlock-issues-in-rusts-dashmap-a-practical-case-study-ad08f10c2849) - this discusses [dashmap](https://github.com/xacrimon/dashmap) a fast, concurrent hash map implementation.
 
 ## Useful Crates
 
