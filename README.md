@@ -35,6 +35,8 @@
 - [Rust-101](https://www.ralfj.de/projects/rust-101/main.html), an online tutorial.
 - [rust-learning](https://github.com/ctjhoa/rust-learning) is a curated collection of blog posts, videos, etc., on learning Rust.
 - [Yet Another Rust Resource](https://yarr.fyi/) is a short crash course in Rust, aimed specifically at high-level programmers (e.g. Python). It contains exercises to be tried as you go. A [blog post](https://ntietz.com/blog/introducing-yet-another-rust-resource-or-yarr/) explains the background. Also available as a [PDF](https://yarr.fyi/yarr.pdf).
+- [Fast Track to Rust](https://freddiehaddad.github.io/fast-track-to-rust/) - an introduction top Rust by building a grep-like program.
+- [Rust for C Programmers](https://rust-for-c-programmers.salewskis.de/) - a Rust course for C/C++ programmers
 
 ## Books
 
@@ -85,6 +87,8 @@
 - [Marco Ieni](https://www.marcoieni.com/)
 - [Rust Trends](https://rust-trends.com/)
 - [The Embedded Rustacean](https://www.theembeddedrustacean.com/)
+- [corrode](https://corrode.dev/blog)
+- []()
 
 ## Podcasts
 
@@ -118,6 +122,9 @@
 - [Long-term Rust Project Maintenance](https://corrode.dev/blog/long-term-rust-maintenance/) - a **really good** article on Rust maintenance, covering lots of topis (e.g., how do you choose which 3rd-party crates to use).
 - [How to organize large Rust codebases](https://kerkour.com/rust-how-to-organize-large-workspaces) - a good, short, article on organising large code bases.
 - [Let’s build and optimize a Rust extension for Python](https://pythonspeed.com/articles/intro-rust-python-extensions/)
+- [Thinking in Expressions](https://corrode.dev/blog/expressions/).
+- [Tips for faster Rust CI builds](https://corrode.dev/blog/tips-for-faster-ci-builds/).
+- [Prototyping in Rust](https://corrode.dev/blog/prototyping/).
 
 ### Error Handling
 
@@ -128,6 +135,7 @@
 - [Rust Error Handling](https://www.unwoundstack.com/blog/rust-error-handling.html).
 - [Practical guide to Error Handling in Rust](https://dev-state.com/posts/error_handling/).
 - [Error handling in Rust: A comprehensive tutorial](https://blog.logrocket.com/error-handling-rust/).
+- [Error handling in Rust - choosing between thiserror and anyhow](https://medium.com/@evadawnley/error-handling-in-rust-choosing-between-thiserror-and-anyhow-6da5ce825d34).
 
 ### Logging and Tracing
 
@@ -215,6 +223,7 @@
 - [Async Rust: The new billion-dollar mistake?](https://kerkour.com/rust-async-billion-dollar-mistake).
 - [Announcing `async fn` and return-position `impl Trait` in traits](https://blog.rust-lang.org/2023/12/21/async-fn-rpit-in-traits.html) - this is a very important read for anyone using async functions in traits. Also, see the `trait-variant` crate.
   - The previous state of the art was: [why async fn in traits are hard](https://smallcultfollowing.com/babysteps/blog/2019/10/26/async-fn-in-traits-are-hard/) from 2019, for background.
+- [Catching up with async Rust](https://fasterthanli.me/articles/catching-up-with-async-rust).
 
 ### JSON
 
