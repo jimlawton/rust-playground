@@ -1,8 +1,6 @@
-# Rust Playground
+# Rust Resources
 
-## Rust Resources
-
-### Fundamentals
+## Fundamentals
 
 - [Rust language site](https://www.rust-lang.org/) - the definitive source.
 - [The Rust Book](https://doc.rust-lang.org/book/) - the definitive documentation, read this.
@@ -11,7 +9,7 @@
 - [Effective Rust](https://effective-rust.com/)
 - [The Mediocre Programmers Guide to Rust](https://www.hezmatt.org/~mpalmer/blog/2024/05/01/the-mediocre-programmers-guide-to-rust.html) - despite the title, this is a very useful article!.
 
-### Language Resources
+## Language Resources
 
 - [Standard Library](https://doc.rust-lang.org/std/index.html)
 - [Rust editions](https://doc.rust-lang.org/edition-guide/index.html)
@@ -21,7 +19,7 @@
 - [Rust Language Cheat Sheet](https://cheats.rs/) - [PDF](https://cheats.rs/dl/rust_cheat_sheet_a4.pdf)
 - [rustdoc book](https://doc.rust-lang.org/rustdoc/what-is-rustdoc.html).
 
-### Training
+## Training
 
 - [Rustlings](https://github.com/rust-lang/rustlings/) - an excellent learn-by-doing site, using small bounded exercises.
 - [Rustfinity](https://www.rustfinity.com/) - very good site that has some great introductory [classes](https://www.rustfinity.com/learn/rust/getting-started), a nice set of [challenges](https://www.rustfinity.com/practice/rust/challenges), and also hosts the [Advent of Rust](https://www.rustfinity.com/advent-of-rust).
@@ -38,7 +36,7 @@
 - [rust-learning](https://github.com/ctjhoa/rust-learning) is a curated collection of blog posts, videos, etc., on learning Rust.
 - [Yet Another Rust Resource](https://yarr.fyi/) is a short crash course in Rust, aimed specifically at high-level programmers (e.g. Python). It contains exercises to be tried as you go. A [blog post](https://ntietz.com/blog/introducing-yet-another-rust-resource-or-yarr/) explains the background. Also available as a [PDF](https://yarr.fyi/yarr.pdf).
 
-### Books
+## Books
 
 - [The Rust Book](https://doc.rust-lang.org/book/) - the definitive documentation.
 - [Command-line apps in Rust book](https://rust-cli.github.io/book/index.html)
@@ -51,7 +49,7 @@
 - [Rustc manual](https://doc.rust-lang.org/rustc/index.html)
 - [Rust for C-Programmers](https://rust-for-c-programmers.salewskis.de).
 
-### Ecosystem
+## Ecosystem
 
 - [Cargo book](https://doc.rust-lang.org/cargo/index.html)
 - [crates.io](https://crates.io/) - the official Rust package repository.
@@ -62,13 +60,14 @@
 - [cargo-license](https://github.com/onur/cargo-license) is a useful tool that prints out the licenses of all dependencies in your package.
 - [cargo-audit](https://docs.rs/cargo-audit/latest/cargo_audit/) is a tool that scans all the dependencies and versions in your package for any known vulnerabilities.
 
-### Tools
+## Tools
 
 - [Guide on how to write documentation for a Rust crate](https://blog.guillaume-gomez.fr/articles/2020-03-12+Guide+on+how+to+write+documentation+for+a+Rust+crate)
 - [Mermaid inline diagrams](https://frehberg.com/2022/12/docs-as-code-mermaid-inline-diagrams/)
 - [doc-comment](https://github.com/GuillaumeGomez/doc-comment) - run examples from Markdown as tests.
 
-### Blogs
+## Blogs
+
 - [The Rust Language Blog](https://blog.rust-lang.org/)
 - [This Week in Rust](https://this-week-in-rust.org/)
 - [Awesome Rust Weekly](https://rust.libhunt.com/newsletter)
@@ -87,7 +86,7 @@
 - [Rust Trends](https://rust-trends.com/)
 - [The Embedded Rustacean](https://www.theembeddedrustacean.com/)
 
-### Podcasts
+## Podcasts
 
 - [The Rustacean Station](https://rustacean-station.org/)
 - [Changelog - Rust](https://changelog.com/topic/rust)
@@ -120,7 +119,7 @@
 - [How to organize large Rust codebases](https://kerkour.com/rust-how-to-organize-large-workspaces) - a good, short, article on organising large code bases.
 - [Let’s build and optimize a Rust extension for Python](https://pythonspeed.com/articles/intro-rust-python-extensions/)
 
-## Error Handling
+### Error Handling
 
 - [Rust error handling cheat-sheet](https://gist.github.com/e-t-u/70f25d4566468adc43a4df43667cedb6) - this is a very good series of articles, 3 so far.
 - [The Definitive Guide to Rust Error Handling](https://www.howtocodeit.com/articles/the-definitive-guide-to-rust-error-handling).
@@ -130,7 +129,7 @@
 - [Practical guide to Error Handling in Rust](https://dev-state.com/posts/error_handling/).
 - [Error handling in Rust: A comprehensive tutorial](https://blog.logrocket.com/error-handling-rust/).
 
-## Logging and Tracing
+### Logging and Tracing
 
 - [Logging in Rust - How to Get Started](https://www.shuttle.dev/blog/2023/09/20/logging-in-rust).
 - [Logging in Rust](https://medium.com/nerd-for-tech/logging-in-rust-e529c241f92e) - log4rs.
@@ -138,7 +137,7 @@
 - [A Rust tracing primer](https://github.com/tugglecore/rust-tracing-primer).
 - [Getting Started with Tracing in Rust](https://www.shuttle.dev/blog/2024/01/09/getting-started-tracing-rust).
 
-## Containers
+### Containers
 
 - [First steps with Docker + Rust](https://dev.to/rogertorres/first-steps-with-docker-rust-30oi) - a useful article on getting a Rust multi-stage build working, this can give you an image size of about 100MB.
 - https://dev.to/mattdark/rust-docker-image-optimization-with-multi-stage-builds-4b6c - a newer article, which mentions distroless, haven't tried this, but it might be a better option than Alpine/MUSL.
