@@ -51,6 +51,7 @@
 - [Rustc manual](https://doc.rust-lang.org/rustc/index.html)
 - [Rust for C-Programmers](https://rust-for-c-programmers.salewskis.de).
 - [Design Patterns in Rust](https://rust-unofficial.github.io/patterns/patterns/index.html).
+- [C++ to Rust Phrasebook](https://cel.cs.brown.edu/crp/).
 
 ## Ecosystem
 
