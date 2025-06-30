@@ -53,6 +53,7 @@
 - [Design Patterns in Rust](https://rust-unofficial.github.io/patterns/patterns/index.html).
 - [C++ to Rust Phrasebook](https://cel.cs.brown.edu/crp/).
 - [Rust API Guidelines](https://rust-lang.github.io/api-guidelines/).
+- [The Rust Security Handbook](https://yevh.github.io/rust-security-handbook/).
 
 ## Ecosystem
 
@@ -91,7 +92,7 @@
 - [Rust Trends](https://rust-trends.com/)
 - [The Embedded Rustacean](https://www.theembeddedrustacean.com/)
 - [corrode](https://corrode.dev/blog)
-- []()
+- [Rust Trends](https://rust-trends.com/)
 
 ## Podcasts
 
@@ -294,6 +295,8 @@
 - [Designing A Fast Concurrent Hash Table](https://ibraheem.ca/posts/designing-papaya/).
 - [Using Rust in Non-Rust Servers to Improve Performance](https://github.com/pretzelhammer/rust-blog/blob/master/posts/rust-in-non-rust-servers.md).
 - [Deadlock Issues in Rust’s DashMap: A Practical Case Study](https://savannahar68.medium.com/deadlock-issues-in-rusts-dashmap-a-practical-case-study-ad08f10c2849) - this discusses [dashmap](https://github.com/xacrimon/dashmap) a fast, concurrent hash map implementation.
+- [Writing a simple Windows driver in Rust](https://scorpiosoftware.net/2025/02/08/writing-a-simple-driver-in-rust/).
+- [The State of Machine Learning in Rust](https://www.arewelearningyet.com/).
 
 ## Useful Crates
 
