@@ -54,6 +54,7 @@
 - [C++ to Rust Phrasebook](https://cel.cs.brown.edu/crp/).
 - [Rust API Guidelines](https://rust-lang.github.io/api-guidelines/).
 - [The Rust Security Handbook](https://yevh.github.io/rust-security-handbook/).
+- [Rust eBooks Nightly](https://artur-sulej.github.io/rust-ebooks/).
 
 ## Ecosystem
 
