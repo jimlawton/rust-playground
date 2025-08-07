@@ -183,6 +183,7 @@
 - [BoringTun](https://github.com/cloudflare/boringtun) - Cloudflare's user-space Rust WireGuard implementation.
 - [WebRTC.rs](https://github.com/webrtc-rs/webrtc/) - a pure Rust implementation of the WebRTC stack, including DTLS, STUN, mDNS.
 - [g3](https://github.com/bytedance/g3) - open-source proxy solutions from Bytedance.
+- [How to Disable SSL Verification in Reqwest with Rust](https://scrapingant.com/blog/reqwest-ignore-ssl).
 
 ### HTTP
 
